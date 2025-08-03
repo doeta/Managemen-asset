@@ -1,0 +1,1798 @@
+DEBUG - 2025-05-28 01:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:33:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 01:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-28 01:46:36 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-013708_CreatTableRiwayatKendaraan.php(54): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-05-28 01:48:12 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-013708_CreatTableRiwayatKendaraan.php(55): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-05-28 01:57:59 --> mysqli_sql_exception: Failed to add the foreign key constraint. Missing index for constraint 'riwayat_kendaraan_nomor_polisi_foreign' in the referenced table 'kendaraan' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-013708_CreatTableRiwayatKendaraan.php(54): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-05-28 01:58:39 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-013708_CreatTableRiwayatKendaraan.php(54): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-05-28 02:03:16 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-013708_CreatTableRiwayatKendaraan.php(56): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-05-28 02:04:34 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-020413_CreateTableRiwayatKendaraan.php(56): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:04:46 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-020413_CreateTableRiwayatKendaraan.php(56): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-05-28 02:18:23 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-020413_CreateTableRiwayatKendaraan.php(55): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:21:00 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-020413_CreateTableRiwayatKendaraan.php(55): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:21:32 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-020413_CreateTableRiwayatKendaraan.php(55): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-05-28 02:21:37 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-020413_CreateTableRiwayatKendaraan.php(55): CodeIgniter\Database\Forge->createTable('riwayat_kendara...', true)
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:22:19 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-020413_CreateTableRiwayatKendaraan.php(53): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:23:35 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-020413_CreateTableRiwayatKendaraan.php(52): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:26:37 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-022537_CreatTableRiwayatKendaraan.php(52): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:37:35 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-022537_CreatTableRiwayatKendaraan.php(52): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:39:15 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-022537_CreatTableRiwayatKendaraan.php(53): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:43:29 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-022537_CreatTableRiwayatKendaraan.php(54): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:44:20 --> mysqli_sql_exception: Referencing column 'id_Kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_Kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-022537_CreatTableRiwayatKendaraan.php(53): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:44:45 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-022537_CreatTableRiwayatKendaraan.php(53): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:49:08 --> mysqli_sql_exception: Referencing column 'id_kendaraan' and referenced column 'id' in foreign key constraint 'riwayat_kendaraan_id_kendaraan_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-022537_CreatTableRiwayatKendaraan.php(53): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatTableRiwayatKendaraan->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 02:59:26 --> mysqli_sql_exception: Table 'kendaraan' already exists in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `k...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `k...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `k...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `k...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-025850_CreateKendaraanTable.php(87): CodeIgniter\Database\Forge->createTable('kendaraan')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatKendaraanTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-05-28 03:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:22:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:28:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:28:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:29:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:29:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraandinas/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraandinas/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraandinas/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraandinas/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:31:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraandinas/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraandinas/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraandinas/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraandinas/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:32:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:32:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraandinas/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraandinas/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraandinas/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraandinas/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:32:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:34:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraandinas/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraandinas/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraandinas/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraandinas/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:34:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraandinas/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraandinas/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraandinas/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraandinas/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:34:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:34:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraandinas/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraandinas/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraandinas/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraandinas/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:35:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:37:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:38:09 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/motor.php"
+[Method: GET, Route: kendaraan/motor]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/motor.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/motor', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(145): view('kendaraan/motor', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->motor()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:38:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/motor.php"
+[Method: GET, Route: kendaraan/motor]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/motor.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/motor', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(145): view('kendaraan/motor', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->motor()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:39:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/Mobil/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil('mobil')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:40:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/Mobil/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:40:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/Mobil/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 03:43:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kendaraan/mobil.php"
+[Method: GET, Route: kendaraan/mobil]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kendaraan/mobil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 3 APPPATH\Controllers\KendaraanController.php(137): view('kendaraan/mobil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 03:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 03:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 04:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:16:15 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(154): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:24:13 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(154): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:24:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:24:54 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(154): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:24:58 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(154): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:25:13 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(154): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:25:14 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(154): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 04:26:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:26:14 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(154): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:29:18 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(154): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 04:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:32:21 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(157): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:34:32 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\KendaraanModel::getRiwayatKendaraan
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\KendaraanController.php(159): CodeIgniter\Model->__call('getRiwayatKendaraan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:39:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:39:59 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::paginate()
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in APPPATH\Controllers\KendaraanController.php on line 159.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:41:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:41:04 --> TypeError: Unsupported operand types: string + int
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 23.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 4 APPPATH\Controllers\KendaraanController.php(160): view('kendaraan/riwayatmobil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:42:08 --> TypeError: Unsupported operand types: string + int
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 23.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 4 APPPATH\Controllers\KendaraanController.php(160): view('kendaraan/riwayatmobil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:43:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:43:22 --> ErrorException: Undefined variable $no
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 23.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $no', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(160): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:43:57 --> ErrorException: Undefined array key "tanggal_mulai"
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_mulai"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(160): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 04:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 04:44:57 --> ErrorException: Undefined array key "tanggal_mulai"
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 23.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_mulai"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(160): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 06:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 06:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 06:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 06:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 06:51:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 06:51:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 06:51:25 --> ErrorException: Undefined array key "tanggal_mulai"
+[Method: GET, Route: kendaraan/riwayatmobil/1]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 23.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_mulai"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(160): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:01:51 --> ErrorException: Undefined array key "id_lokasi"
+[Method: POST, Route: kendaraan/store]
+in APPPATH\Controllers\KendaraanController.php on line 65.
+ 1 APPPATH\Controllers\KendaraanController.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_lokasi"', 'C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\KendaraanController.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:04:06 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(28): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:04:45 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(28): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:04:48 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(28): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:06:24 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(28): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:06:27 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(28): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:10:43 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(28): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:16:09 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(28): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:17:26 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(29): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:18:09 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(30): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:18:24 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(30): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:18:33 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: kendaraan/create]
+in APPPATH\Views\Datamaster\kendaraan\createkendaraan.php on line 33.
+ 1 APPPATH\Views\Datamaster\kendaraan\createkendaraan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kendaraan\\createkendaraan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kendaraan/createkendaraan', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(30): view('Datamaster/kendaraan/createkendaraan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-28 07:25:20 --> mysqli_sql_exception: Unknown column 'id_lokasi' in 'field list' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\assetslte\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\assetslte\app\Controllers\KendaraanController.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-05-28 07:25:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_lokasi' in 'field list'
+[Method: POST, Route: kendaraan/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kendaraan` (`id_pengguna`, `id_lokasi`, `nama_kendaraan`, `no_polisi`, `nomor_polisi_sebelumnya`, `model_kendaraan`, `warna`, `merk_kendaraan`, `tipe_kendaraan`, `harga`, `tahun_kendaraan`, `no_rangka`, `no_mesin`, `no_bpkb`, `no_stnk`, `pembayaran_pajak`, `masa_berlaku`) VALUES (:id_pengguna:, :id_lokasi:, :nama_kendaraan:, :no_polisi:, :nomor_polisi_sebelumnya:, :model_kendaraan:, :warna:, :merk_kendaraan:, :tipe_kendaraan:, :harga:, :tahun_kendaraan:, :no_rangka:, :no_mesin:, :no_bpkb:, :no_stnk:, :pembayaran_pajak:, :masa_berlaku:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\KendaraanController.php(65): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-28 07:25:20 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'id_lokasi' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kendaraan` (`id_pengguna`, `id_lokasi`, `nama_kendaraan`, `no_polisi`, `nomor_polisi_sebelumnya`, `model_kendaraan`, `warna`, `merk_kendaraan`, `tipe_kendaraan`, `harga`, `tahun_kendaraan`, `no_rangka`, `no_mesin`, `no_bpkb`, `no_stnk`, `pembayaran_pajak`, `masa_berlaku`) VALUES (\'2\', \'6\', \'alpard\', \'AA 0000 Ab\', \'AA 0000 Ab\', \'motor\', \'hitam\', \'toyota\', \'Asshaksjdksash\', \'2000\', \'2222\', \'2222\', \'2222\', \'222\', \'222222\', \'2025-05-28\', \'2025-05-28\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kendaraan` (`id_pengguna`, `id_lokasi`, `nama_kendaraan`, `no_polisi`, `nomor_polisi_sebelumnya`, `model_kendaraan`, `warna`, `merk_kendaraan`, `tipe_kendaraan`, `harga`, `tahun_kendaraan`, `no_rangka`, `no_mesin`, `no_bpkb`, `no_stnk`, `pembayaran_pajak`, `masa_berlaku`) VALUES (\'2\', \'6\', \'alpard\', \'AA 0000 Ab\', \'AA 0000 Ab\', \'motor\', \'hitam\', \'toyota\', \'Asshaksjdksash\', \'2000\', \'2222\', \'2222\', \'2222\', \'222\', \'222222\', \'2025-05-28\', \'2025-05-28\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kendaraan` (`id_pengguna`, `id_lokasi`, `nama_kendaraan`, `no_polisi`, `nomor_polisi_sebelumnya`, `model_kendaraan`, `warna`, `merk_kendaraan`, `tipe_kendaraan`, `harga`, `tahun_kendaraan`, `no_rangka`, `no_mesin`, `no_bpkb`, `no_stnk`, `pembayaran_pajak`, `masa_berlaku`) VALUES (:id_pengguna:, :id_lokasi:, :nama_kendaraan:, :no_polisi:, :nomor_polisi_sebelumnya:, :model_kendaraan:, :warna:, :merk_kendaraan:, :tipe_kendaraan:, :harga:, :tahun_kendaraan:, :no_rangka:, :no_mesin:, :no_bpkb:, :no_stnk:, :pembayaran_pajak:, :masa_berlaku:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\KendaraanController.php(65): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-28 07:25:20 --> [Caused by] mysqli_sql_exception: Unknown column 'id_lokasi' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `kendaraan` (`id_pengguna`, `id_lokasi`, `nama_kendaraan`, `no_polisi`, `nomor_polisi_sebelumnya`, `model_kendaraan`, `warna`, `merk_kendaraan`, `tipe_kendaraan`, `harga`, `tahun_kendaraan`, `no_rangka`, `no_mesin`, `no_bpkb`, `no_stnk`, `pembayaran_pajak`, `masa_berlaku`) VALUES (\'2\', \'6\', \'alpard\', \'AA 0000 Ab\', \'AA 0000 Ab\', \'motor\', \'hitam\', \'toyota\', \'Asshaksjdksash\', \'2000\', \'2222\', \'2222\', \'2222\', \'222\', \'222222\', \'2025-05-28\', \'2025-05-28\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kendaraan` (`id_pengguna`, `id_lokasi`, `nama_kendaraan`, `no_polisi`, `nomor_polisi_sebelumnya`, `model_kendaraan`, `warna`, `merk_kendaraan`, `tipe_kendaraan`, `harga`, `tahun_kendaraan`, `no_rangka`, `no_mesin`, `no_bpkb`, `no_stnk`, `pembayaran_pajak`, `masa_berlaku`) VALUES (\'2\', \'6\', \'alpard\', \'AA 0000 Ab\', \'AA 0000 Ab\', \'motor\', \'hitam\', \'toyota\', \'Asshaksjdksash\', \'2000\', \'2222\', \'2222\', \'2222\', \'222\', \'222222\', \'2025-05-28\', \'2025-05-28\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kendaraan` (`id_pengguna`, `id_lokasi`, `nama_kendaraan`, `no_polisi`, `nomor_polisi_sebelumnya`, `model_kendaraan`, `warna`, `merk_kendaraan`, `tipe_kendaraan`, `harga`, `tahun_kendaraan`, `no_rangka`, `no_mesin`, `no_bpkb`, `no_stnk`, `pembayaran_pajak`, `masa_berlaku`) VALUES (\'2\', \'6\', \'alpard\', \'AA 0000 Ab\', \'AA 0000 Ab\', \'motor\', \'hitam\', \'toyota\', \'Asshaksjdksash\', \'2000\', \'2222\', \'2222\', \'2222\', \'222\', \'222222\', \'2025-05-28\', \'2025-05-28\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kendaraan` (`id_pengguna`, `id_lokasi`, `nama_kendaraan`, `no_polisi`, `nomor_polisi_sebelumnya`, `model_kendaraan`, `warna`, `merk_kendaraan`, `tipe_kendaraan`, `harga`, `tahun_kendaraan`, `no_rangka`, `no_mesin`, `no_bpkb`, `no_stnk`, `pembayaran_pajak`, `masa_berlaku`) VALUES (:id_pengguna:, :id_lokasi:, :nama_kendaraan:, :no_polisi:, :nomor_polisi_sebelumnya:, :model_kendaraan:, :warna:, :merk_kendaraan:, :tipe_kendaraan:, :harga:, :tahun_kendaraan:, :no_rangka:, :no_mesin:, :no_bpkb:, :no_stnk:, :pembayaran_pajak:, :masa_berlaku:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\KendaraanController.php(65): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-05-28 07:41:42 --> mysqli_sql_exception: Failed to open the referenced table 'kendaraan' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-030453_CreateRiwayatKendaraanTable.php(60): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateRiwayatKendaraanTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 07:41:50 --> mysqli_sql_exception: Unknown table 'db_assets.kendaraan' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('DROP TABLE `ken...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `ken...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `ken...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `ken...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-025850_CreateKendaraanTable.php(101): CodeIgniter\Database\Forge->dropTable('kendaraan')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatKendaraanTable->down()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(289): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(10)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 07:42:24 --> mysqli_sql_exception: Failed to open the referenced table 'kendaraan' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `r...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `r...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `r...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `r...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-030453_CreateRiwayatKendaraanTable.php(60): CodeIgniter\Database\Forge->createTable('riwayat_kendara...')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateRiwayatKendaraanTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-05-28 07:44:20 --> mysqli_sql_exception: Unknown table 'db_assets.kendaraan' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('DROP TABLE `ken...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `ken...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `ken...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(663): CodeIgniter\Database\BaseConnection->query('DROP TABLE `ken...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-05-28-025850_CreateKendaraanTable.php(101): CodeIgniter\Database\Forge->dropTable('kendaraan')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatKendaraanTable->down()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(289): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRollback.php(101): CodeIgniter\Database\MigrationRunner->regress(10)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-05-28 07:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 07:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-28 07:51:51 --> mysqli_sql_exception: Table 'db_assets.kendaraanriwayat' doesn't exist in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ke...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\assetslte\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\assetslte\app\Controllers\KendaraanController.php(69): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-05-28 07:51:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_assets.kendaraanriwayat' doesn't exist
+[Method: POST, Route: kendaraan/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kendaraanriwayat` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_selesai`, `keterangan`) VALUES (:id_kendaraan:, :id_pengguna:, :id_lokasi:, :nomor_polisi:, :tanggal_selesai:, :keterangan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\KendaraanController.php(69): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-28 07:51:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_assets.kendaraanriwayat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kendaraanriwayat` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_selesai`, `keterangan`) VALUES (1, \'2\', \'6\', \'AA 0000 Ab\', NULL, \'Kendaraan baru ditambahkan\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kendaraanriwayat` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_selesai`, `keterangan`) VALUES (1, \'2\', \'6\', \'AA 0000 Ab\', NULL, \'Kendaraan baru ditambahkan\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kendaraanriwayat` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_selesai`, `keterangan`) VALUES (:id_kendaraan:, :id_pengguna:, :id_lokasi:, :nomor_polisi:, :tanggal_selesai:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\KendaraanController.php(69): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-28 07:51:51 --> [Caused by] mysqli_sql_exception: Table 'db_assets.kendaraanriwayat' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `kendaraanriwayat` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_selesai`, `keterangan`) VALUES (1, \'2\', \'6\', \'AA 0000 Ab\', NULL, \'Kendaraan baru ditambahkan\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `kendaraanriwayat` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_selesai`, `keterangan`) VALUES (1, \'2\', \'6\', \'AA 0000 Ab\', NULL, \'Kendaraan baru ditambahkan\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `kendaraanriwayat` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_selesai`, `keterangan`) VALUES (1, \'2\', \'6\', \'AA 0000 Ab\', NULL, \'Kendaraan baru ditambahkan\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kendaraanriwayat` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_selesai`, `keterangan`) VALUES (:id_kendaraan:, :id_pengguna:, :id_lokasi:, :nomor_polisi:, :tanggal_selesai:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\KendaraanController.php(69): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 07:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 07:56:10 --> Error: Call to a member function insert() on null
+[Method: POST, Route: kendaraan/store]
+in APPPATH\Controllers\KendaraanController.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:05:24 --> Error: Call to a member function insert() on null
+[Method: POST, Route: kendaraan/store]
+in APPPATH\Controllers\KendaraanController.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:05:33 --> Error: Call to a member function insert() on null
+[Method: POST, Route: kendaraan/store]
+in APPPATH\Controllers\KendaraanController.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:09:11 --> Error: Call to a member function insert() on null
+[Method: POST, Route: kendaraan/store]
+in APPPATH\Controllers\KendaraanController.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-28 08:10:33 --> mysqli_sql_exception: Table 'db_assets.riwayatkendaraan' doesn't exist in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ri...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ri...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ri...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ri...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\assetslte\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\assetslte\app\Controllers\KendaraanController.php(69): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-05-28 08:10:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_assets.riwayatkendaraan' doesn't exist
+[Method: POST, Route: kendaraan/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `riwayatkendaraan` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_mulai`, `tanggal_selesai`, `keterangan`) VALUES (:id_kendaraan:, :id_pengguna:, :id_lokasi:, :nomor_polisi:, :tanggal_mulai:, :tanggal_selesai:, :keterangan:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\KendaraanController.php(69): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-28 08:10:33 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_assets.riwayatkendaraan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `riwayatkendaraan` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_mulai`, `tanggal_selesai`, `keterangan`) VALUES (6, \'2\', \'6\', \'AA 0000 Ab\', \'2025-05-28\', NULL, \'Kendaraan baru ditambahkan\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `riwayatkendaraan` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_mulai`, `tanggal_selesai`, `keterangan`) VALUES (6, \'2\', \'6\', \'AA 0000 Ab\', \'2025-05-28\', NULL, \'Kendaraan baru ditambahkan\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `riwayatkendaraan` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_mulai`, `tanggal_selesai`, `keterangan`) VALUES (:id_kendaraan:, :id_pengguna:, :id_lokasi:, :nomor_polisi:, :tanggal_mulai:, :tanggal_selesai:, :keterangan:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\KendaraanController.php(69): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-28 08:10:33 --> [Caused by] mysqli_sql_exception: Table 'db_assets.riwayatkendaraan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `riwayatkendaraan` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_mulai`, `tanggal_selesai`, `keterangan`) VALUES (6, \'2\', \'6\', \'AA 0000 Ab\', \'2025-05-28\', NULL, \'Kendaraan baru ditambahkan\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `riwayatkendaraan` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_mulai`, `tanggal_selesai`, `keterangan`) VALUES (6, \'2\', \'6\', \'AA 0000 Ab\', \'2025-05-28\', NULL, \'Kendaraan baru ditambahkan\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `riwayatkendaraan` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_mulai`, `tanggal_selesai`, `keterangan`) VALUES (6, \'2\', \'6\', \'AA 0000 Ab\', \'2025-05-28\', NULL, \'Kendaraan baru ditambahkan\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `riwayatkendaraan` (`id_kendaraan`, `id_pengguna`, `id_lokasi`, `nomor_polisi`, `tanggal_mulai`, `tanggal_selesai`, `keterangan`) VALUES (:id_kendaraan:, :id_pengguna:, :id_lokasi:, :nomor_polisi:, :tanggal_mulai:, :tanggal_selesai:, :keterangan:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\KendaraanController.php(69): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:13:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:13:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:14:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:14:19 --> ErrorException: Undefined array key "tanggal_mulai"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 23.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_mulai"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:15:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:15:00 --> ErrorException: Undefined array key "id_pengguna"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pengguna"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:17:56 --> ErrorException: Undefined array key "nama_pengguna"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengguna"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:18:57 --> ErrorException: Undefined array key "nama_pengguna"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengguna"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:19:36 --> ErrorException: Undefined array key "nama_pengguna"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengguna"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:20:29 --> ErrorException: Undefined array key "nama_pengguna"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengguna"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:21:13 --> ErrorException: Undefined array key "nama_pengguna"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_pengguna"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:21:43 --> ErrorException: Undefined array key "id_pengguna"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_pengguna"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:23:35 --> TypeError: Unsupported operand types: string + int
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 23.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 4 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 08:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 08:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 08:25:16 --> ErrorException: Undefined array key "tanggal_mulai"
+[Method: GET, Route: kendaraan/riwayatmobil/8]
+in APPPATH\Views\kendaraan\riwayatmobil.php on line 24.
+ 1 APPPATH\Views\kendaraan\riwayatmobil.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_mulai"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\riwayatmobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/riwayatmobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(170): view('kendaraan/riwayatmobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->riwayatmobil('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 13:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-28 13:43:39 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_assets', 3306, '', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\assetslte\app\Controllers\AuthController.php(30): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\assetslte\app\Controllers\AuthController.php(30): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-05-28 13:43:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: auth/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(30): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 13:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-28 13:43:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_assets', 3306, '', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\assetslte\app\Controllers\AuthController.php(30): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\assetslte\app\Controllers\AuthController.php(30): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2025-05-28 13:43:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: auth/authenticate]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(30): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->authenticate()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 13:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:50:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 13:52:41 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: baranghabispakai/riwayat/78]
+in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 33.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(315): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-28 13:53:12 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: baranghabispakai/riwayat/78]
+in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 33.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(315): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 13:54:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:54:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 13:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-28 14:37:42 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('103')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 14:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 14:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 16:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 16:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 16:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 16:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 16:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 16:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-28 17:20:57 --> ErrorException: Undefined variable $asset
+[Method: GET, Route: kendaraan/mobil]
+in APPPATH\Views\kendaraan\mobil.php on line 28.
+ 1 APPPATH\Views\kendaraan\mobil.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $asset', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\mobil.php', 28)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\kendaraan\\mobil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('kendaraan/mobil', [], true)
+ 5 APPPATH\Controllers\KendaraanController.php(163): view('kendaraan/mobil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KendaraanController->mobil()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KendaraanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-28 17:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:23:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:24:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:25:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-28 17:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

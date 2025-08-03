@@ -1,0 +1,924 @@
+DEBUG - 2025-04-23 00:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 00:54:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 00:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 00:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 00:55:04 --> ErrorException: Undefined array key "id_asset"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_asset"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 00:57:56 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 00:58:41 --> ErrorException: Undefined array key "asset"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "asset"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 00:58:53 --> ErrorException: Undefined array key "asset"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "asset"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 00:59:47 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 00:59:49 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 00:59:49 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 00:59:49 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-04-23 01:00:25 --> mysqli_sql_exception: Unknown column 'kode_unik' in 'where clause' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\assetslte\app\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-111111...')
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-04-23 01:00:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kode_unik' in 'where clause'
+[Method: POST, Route: detailbarangmodal/updateStatus/5-001-22-11111111-1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE `kode_unik` = :kode_unik:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:00:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kode_unik' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE `kode_unik` = :kode_unik:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:00:25 --> [Caused by] mysqli_sql_exception: Unknown column 'kode_unik' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE `kode_unik` = :kode_unik:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-04-23 01:00:50 --> mysqli_sql_exception: Unknown column 'kode_unik' in 'where clause' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\assetslte\app\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-111111...')
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-04-23 01:00:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kode_unik' in 'where clause'
+[Method: POST, Route: detailbarangmodal/updateStatus/5-001-22-11111111-1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE `kode_unik` = :kode_unik:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:00:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'kode_unik' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE `kode_unik` = :kode_unik:
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:00:50 --> [Caused by] mysqli_sql_exception: Unknown column 'kode_unik' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE `kode_unik` = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE `kode_unik` = :kode_unik:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:02:31 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:02:33 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:02:33 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:02:33 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:02:34 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 01:02:34 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:43:26 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-23 03:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:45:05 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-23 03:45:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-23 03:53:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '5-001-22-11111111-1'
+ LIMIT 1' at line 3 in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\assetslte\app\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-111111...')
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-04-23 03:53:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '5-001-22-11111111-1'
+ LIMIT 1' at line 3
+[Method: POST, Route: detailbarangmodal/updateStatus/5-001-22-11111111-1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:53:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '5-001-22-11111111-1'
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:53:44 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '5-001-22-11111111-1'
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-04-23 03:54:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '5-001-22-11111111-1'
+ LIMIT 1' at line 3 in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\assetslte\app\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-111111...')
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-04-23 03:54:24 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '5-001-22-11111111-1'
+ LIMIT 1' at line 3
+[Method: POST, Route: detailbarangmodal/updateStatus/5-001-22-11111111-1]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:54:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '5-001-22-11111111-1'
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:54:24 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '5-001-22-11111111-1'
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE  = \'5-001-22-11111111-1\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('5-001-22-11111111-1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-04-23 03:54:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Laptop'
+ LIMIT 1' at line 3 in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\assetslte\app\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('Laptop')
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-04-23 03:54:31 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Laptop'
+ LIMIT 1' at line 3
+[Method: POST, Route: detailbarangmodal/updateStatus/Laptop]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('Laptop')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:54:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Laptop'
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('Laptop')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:54:31 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Laptop'
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('Laptop')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-04-23 03:55:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Laptop'
+ LIMIT 1' at line 3 in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\assetslte\app\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('Laptop')
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-04-23 03:55:52 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Laptop'
+ LIMIT 1' at line 3
+[Method: POST, Route: detailbarangmodal/updateStatus/Laptop]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('Laptop')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:55:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Laptop'
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 4 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 6 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('Laptop')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 03:55:52 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 'Laptop'
+ LIMIT 1' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `asset`
+WHERE  = \'Laptop\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `asset`
+WHERE  = ::
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BarangModalController.php(102): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->updateStatus('Laptop')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-23 03:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-23 03:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 03:59:36 --> ErrorException: Undefined variable $id
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Controllers\BarangModalController.php on line 44.
+ 1 APPPATH\Controllers\BarangModalController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\BarangModalController.php', 44)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-23 04:00:25 --> ErrorException: Undefined array key "i"
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "i"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(69): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-23 04:02:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-23 04:09:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Datamaster/user/user.php"
+[Method: GET, Route: user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Datamaster/user/user.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/user/user', [], true)
+ 3 APPPATH\Controllers\DataMasterController.php(27): view('Datamaster/user/user')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->User()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-04-23 07:48:57 --> mysqli_sql_exception: Failed to add the foreign key constraint. Missing index for constraint 'barang_nama_barang_foreign' in the referenced table 'asset' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-23-070517_CreataBarangTable.php(55): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-23 07:49:16 --> mysqli_sql_exception: Failed to add the foreign key constraint. Missing index for constraint 'barang_nama_barang_foreign' in the referenced table 'asset' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-23-070517_CreataBarangTable.php(55): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-23 07:52:05 --> mysqli_sql_exception: Failed to add the foreign key constraint. Missing index for constraint 'barang_nama_barang_foreign' in the referenced table 'asset' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-23-070517_CreataBarangTable.php(55): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-23 08:00:05 --> mysqli_sql_exception: Referencing column 'id_asset' and referenced column 'id' in foreign key constraint 'barang_id_asset_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-23-070517_CreataBarangTable.php(59): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-23 08:00:30 --> mysqli_sql_exception: Referencing column 'id_asset' and referenced column 'id' in foreign key constraint 'barang_id_asset_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-23-070517_CreataBarangTable.php(59): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-23 08:01:37 --> mysqli_sql_exception: Failed to add the foreign key constraint. Missing index for constraint 'barang_harga_barang_foreign' in the referenced table 'asset' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-23-070517_CreataBarangTable.php(60): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}

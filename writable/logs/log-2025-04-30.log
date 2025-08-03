@@ -1,0 +1,1399 @@
+DEBUG - 2025-04-30 01:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 01:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 01:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 01:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 01:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 01:24:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Datamaster/lokasi/editlokasi.php"
+[Method: GET, Route: lokasi/edit/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Datamaster/lokasi/editlokasi.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/lokasi/editlokasi', [], true)
+ 3 APPPATH\Controllers\LokasiController.php(51): view('Datamaster/lokasi/editlokasi', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LokasiController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LokasiController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 01:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 01:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 01:30:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Datamaster/user/user.php"
+[Method: GET, Route: user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Datamaster/user/user.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/user/user', [], true)
+ 3 APPPATH\Controllers\DataMasterController.php(27): view('Datamaster/user/user')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->User()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 01:46:43 --> ErrorException: Undefined variable $lokasi
+[Method: GET, Route: pengguna]
+in APPPATH\Views\Datamaster\pengguna\pengguna.php on line 23.
+ 1 APPPATH\Views\Datamaster\pengguna\pengguna.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lokasi', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\pengguna.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/pengguna/pengguna', [], true)
+ 5 APPPATH\Controllers\PenggunaController.php(12): view('Datamaster/pengguna/pengguna')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PenggunaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenggunaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 01:47:26 --> ErrorException: Undefined variable $pengguna
+[Method: GET, Route: pengguna]
+in APPPATH\Views\Datamaster\pengguna\pengguna.php on line 23.
+ 1 APPPATH\Views\Datamaster\pengguna\pengguna.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\pengguna.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/pengguna/pengguna', [], true)
+ 5 APPPATH\Controllers\PenggunaController.php(12): view('Datamaster/pengguna/pengguna')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PenggunaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenggunaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 01:48:31 --> ErrorException: Undefined variable $pengguna
+[Method: GET, Route: pengguna]
+in APPPATH\Views\Datamaster\pengguna\pengguna.php on line 23.
+ 1 APPPATH\Views\Datamaster\pengguna\pengguna.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pengguna', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\pengguna.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/pengguna/pengguna', [], true)
+ 5 APPPATH\Controllers\PenggunaController.php(12): view('Datamaster/pengguna/pengguna')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PenggunaController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenggunaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 02:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 02:01:15 --> ErrorException: Undefined variable $lok
+[Method: GET, Route: pengguna]
+in APPPATH\Views\Datamaster\pengguna\pengguna.php on line 32.
+ 1 APPPATH\Views\Datamaster\pengguna\pengguna.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lok', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\pengguna.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\pengguna.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/pengguna/pengguna', [], true)
+ 5 APPPATH\Controllers\PenggunaController.php(24): view('Datamaster/pengguna/pengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PenggunaController->pengguna()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenggunaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 02:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 02:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 02:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 02:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-30 02:06:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Datamaster/pengguna/editpengguna.php"
+[Method: GET, Route: pengguna/edit/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Datamaster/pengguna/editpengguna.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/pengguna/editpengguna', [], true)
+ 3 APPPATH\Controllers\PenggunaController.php(53): view('Datamaster/pengguna/editpengguna', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PenggunaController->edit('3')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenggunaController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 02:08:58 --> ErrorException: Undefined variable $peng
+[Method: GET, Route: pengguna/edit/3]
+in APPPATH\Views\Datamaster\pengguna\editpengguna.php on line 6.
+ 1 APPPATH\Views\Datamaster\pengguna\editpengguna.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peng', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\editpengguna.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\pengguna\\editpengguna.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/pengguna/editpengguna', [], true)
+ 5 APPPATH\Controllers\PenggunaController.php(53): view('Datamaster/pengguna/editpengguna', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PenggunaController->edit('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PenggunaController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 02:17:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 02:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 02:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 03:18:37 --> mysqli_sql_exception: Table 'barang' already exists in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(63): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 03:19:31 --> mysqli_sql_exception: Referencing column 'nama_pengguna' and referenced column 'id' in foreign key constraint 'barang_nama_pengguna_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(63): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 03:23:04 --> mysqli_sql_exception: Referencing column 'id_pengguna' and referenced column 'id' in foreign key constraint 'barang_id_pengguna_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(66): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-04-30 03:23:49 --> ErrorException: Cannot use empty array elements in arrays
+[Method: CLI, Route: migrate]
+in APPPATH\Database\Migrations\2025-04-30-031738_CreateBarangTable.php on line 50.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2025-04-30 03:25:07 --> mysqli_sql_exception: Referencing column 'id_lokasi' and referenced column 'id' in foreign key constraint 'barang_id_lokasi_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(64): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 03:26:57 --> mysqli_sql_exception: Failed to add the foreign key constraint. Missing index for constraint 'barang_nama_pengguna_foreign' in the referenced table 'pengguna' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(68): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreataBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 03:32:54 --> mysqli_sql_exception: Referencing column 'id_pengguna' and referenced column 'id' in foreign key constraint 'barang_id_pengguna_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(62): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 03:35:07 --> mysqli_sql_exception: Referencing column 'id_lokasi' and referenced column 'id' in foreign key constraint 'barang_id_lokasi_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(62): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 03:39:26 --> mysqli_sql_exception: Referencing column 'id_lokasi' and referenced column 'id' in foreign key constraint 'barang_id_lokasi_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(62): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 03:41:08 --> mysqli_sql_exception: Referencing column 'id_pengguna' and referenced column 'id' in foreign key constraint 'barang_id_pengguna_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(64): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 03:41:17 --> mysqli_sql_exception: Referencing column 'id_pengguna' and referenced column 'id' in foreign key constraint 'barang_id_pengguna_foreign' are incompatible. in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `b...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-031738_CreateBarangTable.php(64): CodeIgniter\Database\Forge->createTable('barang')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreateBarangTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-04-30 03:43:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:43:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 03:44:37 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 03:44:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 03:44:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (37, \'tv\', \'5-001-22-2025-11-12-0001\', \'10000000\', \'2025-11-12\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (37, \'tv\', \'5-001-22-2025-11-12-0001\', \'10000000\', \'2025-11-12\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 03:44:37 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (37, \'tv\', \'5-001-22-2025-11-12-0001\', \'10000000\', \'2025-11-12\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (37, \'tv\', \'5-001-22-2025-11-12-0001\', \'10000000\', \'2025-11-12\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (37, \'tv\', \'5-001-22-2025-11-12-0001\', \'10000000\', \'2025-11-12\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 03:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:50:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 03:50:08 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 03:50:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 03:50:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (38, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (38, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 03:50:08 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (38, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (38, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (38, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 03:57:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 03:57:06 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 03:57:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 03:57:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (39, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (39, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 03:57:06 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (39, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (39, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (39, \'meja\', \'10-001-18-1111-11-11-0001\', \'10000000\', \'1111-11-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 03:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:57:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 03:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 03:58:48 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 03:58:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 03:58:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (40, \'jam\', \'15-001-22-1111-11-11-0001\', \'20000\', \'1111-11-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (40, \'jam\', \'15-001-22-1111-11-11-0001\', \'20000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 03:58:48 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (40, \'jam\', \'15-001-22-1111-11-11-0001\', \'20000\', \'1111-11-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (40, \'jam\', \'15-001-22-1111-11-11-0001\', \'20000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (40, \'jam\', \'15-001-22-1111-11-11-0001\', \'20000\', \'1111-11-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 04:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:07:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 04:07:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 04:07:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:07:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (41, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (41, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:07:45 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (41, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (41, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (41, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 04:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 04:18:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 04:18:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:18:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (42, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (42, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:18:04 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (42, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (42, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (42, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 04:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 04:18:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 04:18:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:18:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (43, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (43, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:18:10 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (43, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (43, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (43, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 04:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 04:28:10 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 04:28:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:28:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (44, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (44, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:28:10 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (44, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (44, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (44, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 04:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 04:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 04:52:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 04:52:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:52:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (45, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (45, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 04:52:46 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (45, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (45, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (45, \'Laptop\', \'1-001-22-2025-01-11-0001\', \'1000000\', \'2025-01-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 04:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 06:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 06:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 06:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 06:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 06:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:00:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 07:01:09 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 07:01:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 07:01:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (46, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (46, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 07:01:09 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (46, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (46, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (46, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 07:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 07:17:18 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 07:17:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 07:17:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (47, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (47, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 07:17:18 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (47, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (47, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (47, \'Laptop\', \'10-001-22-2025-11-15-0001\', \'100000\', \'2025-11-15\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 07:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 07:20:45 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 07:20:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 07:20:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (48, \'laptop\', \'1-001-22-2025-12-08-0001\', \'10000\', \'2025-12-08\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (48, \'laptop\', \'1-001-22-2025-12-08-0001\', \'10000\', \'2025-12-08\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 07:20:45 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (48, \'laptop\', \'1-001-22-2025-12-08-0001\', \'10000\', \'2025-12-08\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (48, \'laptop\', \'1-001-22-2025-12-08-0001\', \'10000\', \'2025-12-08\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (48, \'laptop\', \'1-001-22-2025-12-08-0001\', \'10000\', \'2025-12-08\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 07:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 07:34:30 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 07:34:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 07:34:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (49, \'Laptop\', \'10-001-22-2025-12-08-0001\', \'20000\', \'2025-12-08\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (49, \'Laptop\', \'10-001-22-2025-12-08-0001\', \'20000\', \'2025-12-08\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 07:34:30 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (49, \'Laptop\', \'10-001-22-2025-12-08-0001\', \'20000\', \'2025-12-08\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (49, \'Laptop\', \'10-001-22-2025-12-08-0001\', \'20000\', \'2025-12-08\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (49, \'Laptop\', \'10-001-22-2025-12-08-0001\', \'20000\', \'2025-12-08\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 07:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 07:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 08:26:46 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 08:26:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 08:26:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (50, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (50, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 08:26:46 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (50, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (50, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (50, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 08:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 08:26:47 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 08:26:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 08:26:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (51, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (51, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 08:26:47 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (51, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (51, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (51, \'laptop\', \'10-001-22-2025-12-20-0001\', \'1000\', \'2025-12-20\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 08:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:32:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-30 08:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 08:33:00 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 08:33:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 08:33:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (52, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (52, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 08:33:00 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (52, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (52, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (52, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 08:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 08:38:04 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-04-30 08:38:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 08:38:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (53, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (53, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-30 08:38:04 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (53, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (53, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (53, \'laptop\', \'5-001-22-1111-11-11-0001\', \'10000\', \'1111-11-11\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-30 08:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-30 08:38:57 --> mysqli_sql_exception: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-014207_CreatePenggunaTable.php(37): CodeIgniter\Database\Forge->createTable('pengguna')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatePenggunaTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\BaseCommand.php(119): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Commands\Database\MigrateRefresh.php(87): CodeIgniter\CLI\BaseCommand->call('migrate', Array)
+#11 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#14 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#15 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#16 {main}
+ERROR - 2025-04-30 08:42:06 --> mysqli_sql_exception: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-014207_CreatePenggunaTable.php(37): CodeIgniter\Database\Forge->createTable('pengguna')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatePenggunaTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 08:42:40 --> mysqli_sql_exception: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-014207_CreatePenggunaTable.php(37): CodeIgniter\Database\Forge->createTable('pengguna')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatePenggunaTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-30 08:42:58 --> mysqli_sql_exception: All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-30-014207_CreatePenggunaTable.php(37): CodeIgniter\Database\Forge->createTable('pengguna')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatePenggunaTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}

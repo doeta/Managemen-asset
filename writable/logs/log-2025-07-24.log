@@ -1,0 +1,231 @@
+DEBUG - 2025-07-24 04:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 04:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 04:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 04:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 04:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 04:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 04:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 04:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 06:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-24 06:46:18 --> mysqli_sql_exception: Table 'tesasset.sub_kategori_barang_modal' doesn't exist in C:\xampp\htdocs\TesDB asset\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\TesDB asset\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sk`.`ko...', 0)
+#1 C:\xampp\htdocs\TesDB asset\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sk`.`ko...')
+#2 C:\xampp\htdocs\TesDB asset\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sk`.`ko...')
+#3 C:\xampp\htdocs\TesDB asset\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sk`.`ko...', Array, false)
+#4 C:\xampp\htdocs\TesDB asset\app\Controllers\LaporanController.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TesDB asset\system\CodeIgniter.php(933): App\Controllers\LaporanController->dataasset()
+#6 C:\xampp\htdocs\TesDB asset\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\TesDB asset\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TesDB asset\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TesDB asset\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\TesDB asset\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\TesDB asset\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-07-24 06:46:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'tesasset.sub_kategori_barang_modal' doesn't exist
+[Method: GET, Route: laporan/dataasset]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`', [], false)
+ 2 APPPATH\Controllers\LaporanController.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->dataasset()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TesDB asset\\public\\index.php')
+CRITICAL - 2025-07-24 06:46:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'tesasset.sub_kategori_barang_modal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`', [], false)
+ 4 APPPATH\Controllers\LaporanController.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->dataasset()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TesDB asset\\public\\index.php')
+CRITICAL - 2025-07-24 06:46:18 --> [Caused by] mysqli_sql_exception: Table 'tesasset.sub_kategori_barang_modal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`', [], false)
+ 5 APPPATH\Controllers\LaporanController.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->dataasset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TesDB asset\\public\\index.php')
+DEBUG - 2025-07-24 06:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-07-24 07:06:45 --> mysqli_sql_exception: Table 'tesasset.sub_kategori_barang_modal' doesn't exist in C:\xampp\htdocs\TesDB asset\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\TesDB asset\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sk`.`ko...', 0)
+#1 C:\xampp\htdocs\TesDB asset\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sk`.`ko...')
+#2 C:\xampp\htdocs\TesDB asset\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sk`.`ko...')
+#3 C:\xampp\htdocs\TesDB asset\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sk`.`ko...', Array, false)
+#4 C:\xampp\htdocs\TesDB asset\app\Controllers\LaporanController.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\TesDB asset\system\CodeIgniter.php(933): App\Controllers\LaporanController->dataasset()
+#6 C:\xampp\htdocs\TesDB asset\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+#7 C:\xampp\htdocs\TesDB asset\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\TesDB asset\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\TesDB asset\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\TesDB asset\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\TesDB asset\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-07-24 07:06:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'tesasset.sub_kategori_barang_modal' doesn't exist
+[Method: GET, Route: laporan/dataasset]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`', [], false)
+ 2 APPPATH\Controllers\LaporanController.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->dataasset()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TesDB asset\\public\\index.php')
+CRITICAL - 2025-07-24 07:06:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'tesasset.sub_kategori_barang_modal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`', [], false)
+ 4 APPPATH\Controllers\LaporanController.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->dataasset()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TesDB asset\\public\\index.php')
+CRITICAL - 2025-07-24 07:06:45 --> [Caused by] mysqli_sql_exception: Table 'tesasset.sub_kategori_barang_modal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `sk`.`kode_sub_kategori`, `sk`.`nama_sub_kategori`, `k`.`nama_kategori`, COUNT(bm.id) as jumlah_barang
+FROM `sub_kategori_barang_modal` `sk`
+LEFT JOIN `kategori_barang_modal` `k` ON `k`.`id` = `sk`.`kategori_id`
+LEFT JOIN `barang_modal` `bm` ON `bm`.`sub_kategori_id` = `sk`.`id`
+GROUP BY `sk`.`id`', [], false)
+ 5 APPPATH\Controllers\LaporanController.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LaporanController->dataasset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LaporanController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TesDB asset\\public\\index.php')
+DEBUG - 2025-07-24 07:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:11:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:49:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 07:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:15:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:16:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-24 08:17:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Dataassets/riwayat.php"
+[Method: GET, Route: dataassets/riwayat/251]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dataassets/riwayat.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataassets/riwayat', [], true)
+ 3 APPPATH\Controllers\DataAssetsController.php(170): view('Dataassets/riwayat', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataAssetsController->riwayat('251')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAssetsController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\TesDB asset\\public\\index.php')
+DEBUG - 2025-07-24 08:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-24 08:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

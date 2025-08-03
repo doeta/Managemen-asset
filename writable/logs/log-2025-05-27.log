@@ -1,0 +1,505 @@
+DEBUG - 2025-05-27 01:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:13:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-27 01:13:49 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 20.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(250): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 01:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-27 01:17:32 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 20.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(250): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('88')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 01:17:57 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 20.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(250): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('88')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 01:18:09 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 20.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(250): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 01:21:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:21:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:21:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-27 01:22:05 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_assets`.`asset`, CONSTRAINT `asset_kode_sub_kategori_foreign` FOREIGN KEY (`kode_sub_kategori`) REFERENCES `sub_kategori` (`kode_sub_kategori`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('DELETE FROM `su...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `su...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `su...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2848): CodeIgniter\Database\BaseConnection->query('DELETE FROM `su...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(521): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(1157): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\xampp\htdocs\assetslte\app\Controllers\SubKategoriController.php(127): CodeIgniter\BaseModel->delete(Array)
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\SubKategoriController->delete('35')
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+DEBUG - 2025-05-27 01:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 01:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-27 01:28:00 --> ErrorException: Undefined array key "keterangan"
+[Method: GET, Route: barangmodal/edit/98]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 65.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(67): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('98')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-27 01:31:41 --> ErrorException: Undefined array key "keterangan"
+[Method: GET, Route: barangmodal/edit/98]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 65.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(67): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('98')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 01:39:55 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(136): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('98')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-27 01:40:03 --> ErrorException: Undefined array key "keterangan"
+[Method: GET, Route: barangmodal/edit/98]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 65.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(67): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('98')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 01:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-27 01:44:46 --> ErrorException: Undefined array key "keterangan"
+[Method: GET, Route: barangmodal/edit/99]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 65.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(67): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-27 01:46:37 --> ErrorException: Undefined array key "keterangan"
+[Method: GET, Route: barangmodal/edit/99]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 65.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(67): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-27 01:53:03 --> ErrorException: Undefined array key "keterangan"
+[Method: GET, Route: barangmodal/edit/99]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 65.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(67): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 01:54:47 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-27 01:55:25 --> ErrorException: Undefined array key "keterangan"
+[Method: GET, Route: barangmodal/edit/101]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 65.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 65)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(67): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('101')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 01:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-27 01:57:26 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('101')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 02:04:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 02:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:07:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:08:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:08:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-27 02:53:24 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 20.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(315): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 02:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 02:55:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-27 02:57:58 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 03:00:15 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 03:00:18 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 03:00:38 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 20.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(315): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-27 03:00:38 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: baranghabispakai/riwayat/78]
+in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 33.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(315): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 05:05:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 20.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(315): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-27 05:05:11 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: baranghabispakai/riwayat/78]
+in APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php on line 33.
+ 1 APPPATH\Views\Dataasset\Baranghabispakai\riwayatbaranghabispakai.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php', 33)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Baranghabispakai\\riwayatbaranghabispakai.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [], true)
+ 5 APPPATH\Controllers\BarangController.php(315): view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangHabisPakai('78')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 07:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 07:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 07:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 07:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-27 07:56:36 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 07:57:11 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 07:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-27 07:57:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 07:57:59 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 07:58:00 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('99')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+WARNING - 2025-05-27 07:58:07 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('101')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 07:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-05-27 07:59:01 --> [DEPRECATED] strtotime(): Passing null to parameter #1 ($datetime) of type string is deprecated in APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php on line 20.
+ 1 APPPATH\Views\Dataasset\Barangmodal\riwayatbarangmodal.php(20): strtotime(null)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\riwayatbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/riwayatbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(164): view('Dataasset/Barangmodal/riwayatbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->riwayatBarangModal('102')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-27 07:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 07:59:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 07:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 07:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 07:59:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 07:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-27 08:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,663 @@
+CRITICAL - 2025-03-26 01:16:08 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:18:22 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:22:14 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:22:54 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:22:56 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:22:56 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:22:56 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:22:56 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:22:57 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:27:51 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:29:24 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:29:25 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:29:25 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:29:26 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:29:26 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:08 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:31 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:33 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:33 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:34 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:34 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:35 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:35 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:35 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:36 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:33:36 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 20.
+ 1 APPPATH\Views\Datamaster\kategori.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 01:57:01 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 02:02:44 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori_asset]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori_asset()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 02:15:58 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 02:27:51 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 02:28:32 --> ErrorException: Undefined variable $Kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 25.
+ 1 APPPATH\Views\Datamaster\kategori.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 02:34:44 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 02:46:58 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 02:47:25 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 02:56:50 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 03:27:54 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: kategori]
+in APPPATH\Config\Database.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-03-26 03:28:33 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 03:34:58 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 24.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 4 APPPATH\Controllers\KategoriController.php(23): view('Datamaster/kategori', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\KategoriController->kategori()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KategoriController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 07:00:11 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 07:03:10 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 07:06:16 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 07:45:26 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 07:54:46 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 07:57:50 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-03-26 07:58:04 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: kategori]
+in APPPATH\Views\Datamaster\kategori.php on line 21.
+ 1 APPPATH\Views\Datamaster\kategori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Datamaster\\kategori.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/kategori', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(11): view('Datamaster/kategori')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->kategori()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')

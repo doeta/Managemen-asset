@@ -1,0 +1,363 @@
+DEBUG - 2025-07-04 01:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 01:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:00:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:00:05 --> ErrorException: Undefined array key "tipe_barang"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe_barang"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:00:13 --> ErrorException: Undefined array key "tipe_barang"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe_barang"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:00:45 --> ErrorException: Undefined array key "tipe_barang"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe_barang"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:02:10 --> ErrorException: Undefined array key "ketegori_barang"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ketegori_barang"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:02:32 --> ErrorException: Undefined array key "ketegori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ketegori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:02:42 --> ErrorException: Undefined array key "nama_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:03:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:03:23 --> ErrorException: Undefined array key "sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:04:47 --> ErrorException: Undefined array key "tipe_barang"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe_barang"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:24:47 --> ErrorException: Undefined array key "tipe_barang"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 45.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipe_barang"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 45)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:31:44 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:32:52 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:36:30 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-04 02:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:45:48 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:49:12 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:54:35 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:55:27 --> ErrorException: Undefined property: CodeIgniter\Autoloader\Autoloader::$request
+[Method: GET, Route: pemakaian]
+in APPPATH\Controllers\PemakaianController.php on line 139.
+ 1 APPPATH\Controllers\PemakaianController.php(139): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Autoloader\\Autoloader::$request', 'C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\PemakaianController.php', 139)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\PemakaianController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\PemakaianController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PemakaianController')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PemakaianController')
+ 6 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\PemakaianController', true)
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:57:37 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 02:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 02:57:48 --> ErrorException: Undefined array key "sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 03:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 03:00:21 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 03:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 03:03:26 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 03:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 03:10:46 --> ErrorException: Undefined array key ""
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 03:10:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-07-04 03:10:47 --> ErrorException: Undefined array key ""
+[Method: GET, Route: pemakaian]
+in APPPATH\Views\pemakaian\pemakaian.php on line 41.
+ 1 APPPATH\Views\pemakaian\pemakaian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php', 41)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\pemakaian\\pemakaian.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pemakaian/pemakaian', [], true)
+ 5 APPPATH\Controllers\PemakaianController.php(43): view('pemakaian/pemakaian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PemakaianController->pemakaian()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PemakaianController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-07-04 03:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,642 @@
+DEBUG - 2025-04-14 01:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-14 01:39:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Datamaster/user/user.php"
+[Method: GET, Route: user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Datamaster/user/user.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/user/user', [], true)
+ 3 APPPATH\Controllers\DataMasterController.php(27): view('Datamaster/user/user')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->User()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-14 01:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-14 02:11:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Datamaster/user/user.php"
+[Method: GET, Route: user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Datamaster/user/user.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Datamaster/user/user', [], true)
+ 3 APPPATH\Controllers\DataMasterController.php(27): view('Datamaster/user/user')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->User()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-14 02:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:34:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-14 02:35:08 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:36:19 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-14 02:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 02:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-14 02:40:36 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:43:13 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:43:35 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:44:04 --> ErrorException: Undefined variable $kode_sub_kategori
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 28.
+ 1 APPPATH\Controllers\BarangModalController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\BarangModalController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:44:11 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:44:16 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:44:37 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:52:11 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangModalController::detailbarangmodal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: Barangmodal/detailbarangmodal]
+in APPPATH\Controllers\BarangModalController.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:52:30 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/1.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(32): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('1.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:52:59 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/1.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(32): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('1.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:53:08 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/1.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(32): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('1.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:53:50 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/4.4]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(32): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('4.4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:54:18 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/4.4]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(32): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('4.4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:54:57 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/4.4]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(31): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('4.4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:57:40 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/4.4]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/Barangmodal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(31): view('DataAsset/Barangmodal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('4.4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 02:58:50 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/4.4]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/Barangmodal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(31): view('DataAsset/Barangmodal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('4.4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 03:00:07 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: Barangmodal/detailbarangmodal/4.4]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 68.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 68)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/Barangmodal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(31): view('DataAsset/Barangmodal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('4.4')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-14 03:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 03:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 03:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 03:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 03:06:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 03:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 03:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 03:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-14 03:28:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "DataAsset/Barangmodal/show.php"
+[Method: GET, Route: detailbarangmodal/show/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DataAsset/Barangmodal/show.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/Barangmodal/show', [], true)
+ 3 APPPATH\Controllers\BarangModalController.php(64): view('DataAsset/Barangmodal/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->show('14')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 03:28:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "DataAsset/detailarangmodal/show.php"
+[Method: GET, Route: detailbarangmodal/show/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DataAsset/detailarangmodal/show.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/detailarangmodal/show', [], true)
+ 3 APPPATH\Controllers\BarangModalController.php(64): view('DataAsset/detailarangmodal/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->show('14')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 03:29:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "DataAsset/Barangmodal/detailarangmodal/show.php"
+[Method: GET, Route: detailbarangmodal/show/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('DataAsset/Barangmodal/detailarangmodal/show.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/Barangmodal/detailarangmodal/show', [], true)
+ 3 APPPATH\Controllers\BarangModalController.php(64): view('DataAsset/Barangmodal/detailarangmodal/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->show('14')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 03:29:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/Barangmodal/detailarangmodal/show.php"
+[Method: GET, Route: detailbarangmodal/show/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/Barangmodal/detailarangmodal/show.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/Barangmodal/detailarangmodal/show', [], true)
+ 3 APPPATH\Controllers\BarangModalController.php(64): view('/Barangmodal/detailarangmodal/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->show('14')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 03:30:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/detailarangmodal/show.php"
+[Method: GET, Route: detailbarangmodal/show/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/detailarangmodal/show.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/detailarangmodal/show', [], true)
+ 3 APPPATH\Controllers\BarangModalController.php(64): view('/detailarangmodal/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->show('14')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 03:31:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/detailarangmodal/show.php"
+[Method: GET, Route: detailbarangmodal/show/14]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/detailarangmodal/show.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('/detailarangmodal/show', [], true)
+ 3 APPPATH\Controllers\BarangModalController.php(64): view('/detailarangmodal/show', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->show('14')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 03:32:53 --> ErrorException: Undefined variable $kode_sub_kategori
+[Method: GET, Route: detailbarangmodal/show/14]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 25.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/Barangmodal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(64): view('DataAsset/Barangmodal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->show('14')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 03:33:05 --> ErrorException: Undefined variable $kode_sub_kategori
+[Method: GET, Route: detailbarangmodal/show/14]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 25.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/Barangmodal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(64): view('DataAsset/Barangmodal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->show('14')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:28:25 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 24.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(57): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:28:50 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/main.php"
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layout/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 4 APPPATH\Controllers\BarangModalController.php(57): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:33:15 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 38.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 38)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(57): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:33:52 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 35.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(57): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:34:15 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 39.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 39)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(57): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:38:37 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 34.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(59): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:43:02 --> ErrorException: Undefined array key "kode_unik"
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 21.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_unik"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(39): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:43:14 --> ErrorException: Undefined array key "kode_unik"
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 21.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_unik"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(39): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 04:44:49 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 34.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 34)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(60): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-14 06:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:41:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:43:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:45:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 06:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-14 08:05:40 --> ErrorException: Undefined variable $expanded_asset
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 32.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $expanded_asset', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(67): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 08:12:06 --> ErrorException: Undefined variable $asset
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 40.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $asset', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 40)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(67): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-14 08:12:46 --> TypeError: CodeIgniter\Pager\Pager::getCurrentPage(): Argument #1 ($group) must be of type string, array given, called in C:\xampp\htdocs\assetslte\app\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 34
+[Method: GET, Route: Barangmodal/detailbarangmodal/5.1]
+in SYSTEMPATH\Pager\Pager.php on line 215.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(34): CodeIgniter\Pager\Pager->getCurrentPage([...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('DataAsset/BarangModal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangModalController.php(67): view('DataAsset/BarangModal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangModalController->detailbarangmodal('5.1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangModalController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-14 14:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 14:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 14:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-14 14:55:27 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-14-144856_CreatUsersTable.php(38): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatUsersTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-04-14 14:56:34 --> mysqli_sql_exception: Invalid default value for 'created_at' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\xampp\htdocs\assetslte\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\xampp\htdocs\assetslte\app\Database\Migrations\2025-04-14-144856_CreatUsersTable.php(39): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(866): App\Database\Migrations\CreatUsersTable->up()
+#6 C:\xampp\htdocs\assetslte\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\assetslte\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\assetslte\system\CLI\Commands.php(70): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\assetslte\system\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\assetslte\system\Boot.php(360): CodeIgniter\CLI\Console->run()
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\xampp\htdocs\assetslte\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-04-14 15:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 15:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 15:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 16:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 16:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 16:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 16:01:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 16:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-14 16:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

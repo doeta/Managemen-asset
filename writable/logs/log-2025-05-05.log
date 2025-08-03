@@ -1,0 +1,965 @@
+DEBUG - 2025-05-05 01:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:31:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 01:32:39 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE) in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `ba...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 C:\xampp\htdocs\assetslte\app\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\AssetController->store()
+#6 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+#7 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-05-05 01:32:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+[Method: POST, Route: asset/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 2 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 01:32:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (54, \'Laptop 1\', \'14-001-22-2025-05-05-0001\', \'1000\', \'2025-05-05\', \'tersedia\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (54, \'Laptop 1\', \'14-001-22-2025-05-05-0001\', \'1000\', \'2025-05-05\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 4 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 01:32:40 --> [Caused by] mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`db_assets`.`barang`, CONSTRAINT `barang_id_pengguna_foreign` FOREIGN KEY (`id_pengguna`) REFERENCES `pengguna` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (54, \'Laptop 1\', \'14-001-22-2025-05-05-0001\', \'1000\', \'2025-05-05\', \'tersedia\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (54, \'Laptop 1\', \'14-001-22-2025-05-05-0001\', \'1000\', \'2025-05-05\', \'tersedia\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (54, \'Laptop 1\', \'14-001-22-2025-05-05-0001\', \'1000\', \'2025-05-05\', \'tersedia\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barang` (`id_asset`, `nama_barang`, `kode_unik`, `harga_barang`, `tanggal_masuk`, `status`) VALUES (:id_asset:, :nama_barang:, :kode_unik:, :harga_barang:, :tanggal_masuk:, :status:)', [...], false)
+ 5 APPPATH\Controllers\AssetController.php(81): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AssetController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 01:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:46:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:48:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 01:51:04 --> ErrorException: Undefined variable $expanded_assets
+[Method: GET, Route: detailbarangmodal/22]
+in APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\detailbarangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $expanded_assets', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\detailbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/detailbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(38): view('Dataasset/Barangmodal/detailbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangModal('22')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 01:54:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 01:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:16:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:32:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-05 02:33:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1 in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `barang`...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\assetslte\system\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\assetslte\app\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-05-05 02:33:37 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+[Method: GET, Route: detailbaranghabispakai/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 02:33:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 02:33:37 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-05-05 02:34:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1 in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `barang`...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\assetslte\system\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\assetslte\app\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-05-05 02:34:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+[Method: GET, Route: detailbaranghabispakai/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 02:34:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 02:34:05 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-05-05 02:34:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1 in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `barang`...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\assetslte\system\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\assetslte\app\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-05-05 02:34:35 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+[Method: GET, Route: detailbaranghabispakai/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 02:34:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 02:34:35 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-05-05 02:34:40 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1 in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `barang`...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+#6 C:\xampp\htdocs\assetslte\system\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+#7 C:\xampp\htdocs\assetslte\app\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+#8 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-05-05 02:34:40 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+[Method: GET, Route: detailbaranghabispakai/51]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 4 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 02:34:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 6 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 7 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 02:34:40 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `baran' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = \'51\'
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `barang`.*, `asset`.`kode_barang`, `asset`.`kode_unik`. `asset`.`nama_barang`, `asset`.`kode_kategori`, `asset`.`kode_sub_kategori`
+FROM `barang`
+JOIN `asset` ON `asset`.`id` = `barang`.`id_asset`
+WHERE `asset`.`kode_sub_kategori` = :asset.kode_sub_kategori:
+ORDER BY `asset`.`nama_barang` ASC
+ LIMIT 10', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(10, 0)
+ 7 SYSTEMPATH\BaseModel.php(1287): CodeIgniter\BaseModel->findAll(10, 0)
+ 8 APPPATH\Controllers\BarangController.php(61): CodeIgniter\BaseModel->paginate(10)
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 02:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:47:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:48:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:50:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 02:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 03:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 03:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 03:51:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 03:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 03:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 03:53:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 03:54:54 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangController::detailBarangModal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: detailbarangmodal]
+in APPPATH\Controllers\BarangController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangModal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 03:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 03:59:38 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangController::detailBarangModal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: detailbarangmodal]
+in APPPATH\Controllers\BarangController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangModal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 04:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 04:04:32 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(54): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 04:04:39 --> ErrorException: Undefined variable $sub
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(54): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 04:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 04:28:31 --> ParseError: syntax error, unexpected token "<", expecting "function" or "const"
+[Method: GET, Route: detailbarangmodal/18]
+in APPPATH\Controllers\BarangController.php on line 57.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\BarangController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\BarangController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\BarangController')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\BarangController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 04:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:49:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:50:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 04:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 05:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 05:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 05:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 05:22:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 05:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 06:12:34 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/83]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('83')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:12:54 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/83]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('83')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:13:05 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:13:05 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:13:06 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:13:27 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:14:32 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 06:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 06:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 06:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 06:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 06:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 06:33:14 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/82]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('82')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:34:11 --> ErrorException: Undefined array key "asset"
+[Method: GET, Route: barangmodal/edit/82]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "asset"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('82')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:34:34 --> ErrorException: Undefined array key "barang"
+[Method: GET, Route: barangmodal/edit/82]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "barang"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('82')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 06:34:40 --> ErrorException: Undefined array key "barang"
+[Method: GET, Route: barangmodal/edit/83]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "barang"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('83')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 06:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:07:48 --> ErrorException: Undefined variable $barangWithAsset
+[Method: GET, Route: detailbaranghabispakai/51]
+in APPPATH\Controllers\BarangController.php on line 115.
+ 1 APPPATH\Controllers\BarangController.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barangWithAsset', 'C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\BarangController.php', 115)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangHabisPakai('51')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 07:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:09:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:14:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:14:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:24:06 --> ErrorException: Undefined array key ""
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 07:25:01 --> ErrorException: Undefined array key "kode_sub_kategori"
+[Method: GET, Route: barangmodal/edit/80]
+in APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php on line 44.
+ 1 APPPATH\Views\Dataasset\Barangmodal\editbarangmodal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kode_sub_kategori"', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\editbarangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/editbarangmodal', [], true)
+ 5 APPPATH\Controllers\BarangController.php(56): view('Dataasset/Barangmodal/editbarangmodal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->editBarangModal('80')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-05-05 07:27:29 --> ArgumentCountError: Too few arguments to function App\Controllers\BarangController::detailBarangModal(), 0 passed in C:\xampp\htdocs\assetslte\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: detailbarangmodal]
+in APPPATH\Controllers\BarangController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangModal()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 07:28:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-05 07:32:56 --> ErrorException: Undefined variable $kode_sub_kategori
+[Method: GET, Route: detailbarangmodal/18]
+in APPPATH\Controllers\BarangController.php on line 30.
+ 1 APPPATH\Controllers\BarangController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kode_sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Controllers\\BarangController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BarangController->detailBarangModal('18')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-05-05 07:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 07:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 08:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 13:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 13:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 13:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-05 13:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

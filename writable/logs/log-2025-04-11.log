@@ -1,0 +1,903 @@
+DEBUG - 2025-04-11 02:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 02:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 02:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-11 02:34:51 --> mysqli_sql_exception: Duplicate entry '4.4' for key 'sub_kategori.kode_sub_kategori' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\assetslte\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\assetslte\system\BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\assetslte\app\Controllers\SubKategoriController.php(66): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\SubKategoriController->store()
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+#11 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-04-11 02:34:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '4.4' for key 'sub_kategori.kode_sub_kategori'
+[Method: POST, Route: kategori/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (:kode_kategori:, :kode_sub_kategori:, :nama_sub_kategori:, :deskripsi_sub_kategori:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\SubKategoriController.php(66): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SubKategoriController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 02:34:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '4.4' for key 'sub_kategori.kode_sub_kategori'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'002\', \'4.4\', \'Persediaan Barang Cetak\', \'-\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'002\', \'4.4\', \'Persediaan Barang Cetak\', \'-\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (:kode_kategori:, :kode_sub_kategori:, :nama_sub_kategori:, :deskripsi_sub_kategori:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\SubKategoriController.php(66): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SubKategoriController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 02:34:51 --> [Caused by] mysqli_sql_exception: Duplicate entry '4.4' for key 'sub_kategori.kode_sub_kategori'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'002\', \'4.4\', \'Persediaan Barang Cetak\', \'-\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'002\', \'4.4\', \'Persediaan Barang Cetak\', \'-\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'002\', \'4.4\', \'Persediaan Barang Cetak\', \'-\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (:kode_kategori:, :kode_sub_kategori:, :nama_sub_kategori:, :deskripsi_sub_kategori:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\SubKategoriController.php(66): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SubKategoriController->store()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-11 02:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-11 02:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 03:10:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Dataasset/barangmodal.php"
+[Method: GET, Route: BarangModal/barangmodal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dataasset/barangmodal.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/barangmodal', [], true)
+ 3 APPPATH\Controllers\DataAssetController.php(14): view('Dataasset/barangmodal')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataAssetController->barangmodal()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAssetController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:11:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Dataasset/barangmodal.php"
+[Method: GET, Route: BarangModal/barangmodal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dataasset/barangmodal.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/barangmodal', [], true)
+ 3 APPPATH\Controllers\DataAssetController.php(14): view('Dataasset/barangmodal')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataAssetController->barangmodal()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAssetController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:11:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Dataasset/barangmodal.php"
+[Method: GET, Route: BarangModal/barangmodal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dataasset/barangmodal.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/barangmodal', [], true)
+ 3 APPPATH\Controllers\DataAssetController.php(14): view('Dataasset/barangmodal')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataAssetController->barangmodal()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAssetController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:12:05 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Dataasset/barangmodal.php"
+[Method: GET, Route: BarangModal/barangmodal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dataasset/barangmodal.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/barangmodal', [], true)
+ 3 APPPATH\Controllers\DataAssetController.php(14): view('Dataasset/barangmodal')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataAssetController->barangmodal()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAssetController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:13:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Dataasset/barangmodal.php"
+[Method: GET, Route: BarangModal/barangmodal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Dataasset/barangmodal.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/barangmodal', [], true)
+ 3 APPPATH\Controllers\DataAssetController.php(14): view('Dataasset/barangmodal')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataAssetController->barangmodal()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAssetController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:31:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/template.php"
+[Method: GET, Route: Barangmodal/barangmodal]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/template.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/template', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 4 APPPATH\Controllers\DataAssetController.php(14): view('Dataasset/Barangmodal/barangmodal')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataAssetController->Barangmodal()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAssetController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:18 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 6.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataAssetController.php(14): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataAssetController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataAssetController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:47 --> ErrorException: Cannot redeclare App\Controllers\DataAssetController::barangmodal()
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Controllers\DataAssetController.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-04-11 03:37:27 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 6.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:38:34 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 6.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 03:38:34 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 6.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 6)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-11 13:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-11 13:44:42 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 48.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 3 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:45:00 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:53:15 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:54:48 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:55:05 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:55:22 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:56:18 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:56:31 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:59:37 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:59:52 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:59:53 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:59:54 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:59:54 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:59:54 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:59:54 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 13:59:54 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:00:43 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:15:10 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:18:12 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:21:38 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:27:35 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:27:43 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:27:50 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:28:02 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:29:46 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:30:57 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:31:39 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:32:31 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:33:53 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:24 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:26 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:26 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:26 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:26 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:27 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:27 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:27 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:27 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:27 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:27 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:37:40 --> ErrorException: Undefined variable $sub_kategori
+[Method: GET, Route: Barangmodal/barangmodal]
+in APPPATH\Views\Dataasset\Barangmodal\barangmodal.php on line 27.
+ 1 APPPATH\Views\Dataasset\Barangmodal\barangmodal.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sub_kategori', 'C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\assetslte\\app\\Views\\Dataasset\\Barangmodal\\barangmodal.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Dataasset/Barangmodal/barangmodal', [], true)
+ 5 APPPATH\Controllers\DataMasterController.php(34): view('Dataasset/Barangmodal/barangmodal')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DataMasterController->Barangmodal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DataMasterController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+ERROR - 2025-04-11 14:40:56 --> mysqli_sql_exception: Duplicate entry '22' for key 'sub_kategori.kode_sub_kategori' in C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\assetslte\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\xampp\htdocs\assetslte\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\xampp\htdocs\assetslte\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\xampp\htdocs\assetslte\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\assetslte\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\assetslte\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\assetslte\system\BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\assetslte\app\Controllers\SubKategoriController.php(66): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(933): App\Controllers\SubKategoriController->store()
+#10 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+#11 C:\xampp\htdocs\assetslte\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\assetslte\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\assetslte\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\assetslte\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\assetslte\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2025-04-11 14:40:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '22' for key 'sub_kategori.kode_sub_kategori'
+[Method: POST, Route: kategori/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (:kode_kategori:, :kode_sub_kategori:, :nama_sub_kategori:, :deskripsi_sub_kategori:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\SubKategoriController.php(66): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SubKategoriController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:40:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '22' for key 'sub_kategori.kode_sub_kategori'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'001\', \'22\', \'Barang Perabot Kantor\', \'-\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'001\', \'22\', \'Barang Perabot Kantor\', \'-\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (:kode_kategori:, :kode_sub_kategori:, :nama_sub_kategori:, :deskripsi_sub_kategori:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\SubKategoriController.php(66): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SubKategoriController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+CRITICAL - 2025-04-11 14:40:56 --> [Caused by] mysqli_sql_exception: Duplicate entry '22' for key 'sub_kategori.kode_sub_kategori'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'001\', \'22\', \'Barang Perabot Kantor\', \'-\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'001\', \'22\', \'Barang Perabot Kantor\', \'-\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (\'001\', \'22\', \'Barang Perabot Kantor\', \'-\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sub_kategori` (`kode_kategori`, `kode_sub_kategori`, `nama_sub_kategori`, `deskripsi_sub_kategori`) VALUES (:kode_kategori:, :kode_sub_kategori:, :nama_sub_kategori:, :deskripsi_sub_kategori:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\SubKategoriController.php(66): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\SubKategoriController->store()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubKategoriController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\assetslte\\public\\index.php')
+DEBUG - 2025-04-11 14:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
