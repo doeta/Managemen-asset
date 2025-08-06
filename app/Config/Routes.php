@@ -59,11 +59,11 @@ $routes->group('', ['filter' => 'auth'], function($routes) {
     // -----------------------------
 
     $routes->get('/dataassets', 'DataAssetsController::index');
-    $routes->get('/dataassets/detail/(:segment)', 'DataAssetsController::detail/$1');
+    $routes->get('/dataassets/detailSubKategori/(:segment)', 'DataAssetsController::detailSubKategori/$1');
+    $routes->get('/dataassets/detail/(:num)', 'DataAssetsController::detail/$1');
     $routes->get('/dataassets/edit/(:num)', 'DataAssetsController::edit/$1');
     $routes->post('/dataassets/update/(:num)', 'DataAssetsController::update/$1');
     $routes->delete('/dataassets/delete/(:num)', 'DataAssetsController::delete/$1');
-    $routes->get('/dataassets/riwayat/(:num)', 'DataAssetsController::riwayat/$1');
 
 
 
@@ -188,8 +188,11 @@ $routes->group('', ['filter' => 'auth'], function($routes) {
         // --- Ekspor Cetak/Export PDF & Excel ---
         
         // Laporan Data Aset
-        $routes->get('dataasset/pdf/(:segment)', 'LaporanController::cetakDataAssetPdf/$1');
-        $routes->get('dataasset/excel/(:segment)', 'LaporanController::exportDataAssetExcel/$1');
+        $routes->get('asset/pdf', 'LaporanController::exportDataAssetPdf');
+        $routes->get('asset/excel', 'LaporanController::exportDataAssetExcel');
+        $routes->get('asset/sub-kategori', 'LaporanController::getSubKategoriByKategori');
+        $routes->get('asset/nama-barang', 'LaporanController::getNamaBarangBySubKategori');
+        $routes->get('asset/data-filter', 'LaporanController::getDataBarangByFilter');
         // Laporan Kendaraan
         $routes->get('kendaraan/pdf/(:segment)', 'LaporanController::cetakKendaraanPdf/$1');
         $routes->get('kendaraan/excel/(:segment)', 'LaporanController::exportKendaraanExcel/$1');
