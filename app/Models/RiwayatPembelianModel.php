@@ -14,7 +14,7 @@ class RiwayatPembelianModel extends Model
     protected $protectFields    = true;
     protected $allowedFields    = [ 'id_riwayat', 'id_asset', 'kode_sub_kategori', 'kode_kategori', 'nama_barang', 'kode_barang', 'deskripsi_barang', 'jumlah_dibeli', 'harga_satuan', 'total_harga', 'tanggal_pembelian' ];
 
-public function getRiwayatWithAsset($id_asset = null)
+public function getRiwayatWithAsset($tahun = null, $kategori = null, $subkategori = null)
 {
     $builder = $this->db->table($this->table);
     $builder->select('riwayat_pembelian.*, 
@@ -23,8 +23,14 @@ public function getRiwayatWithAsset($id_asset = null)
     $builder->join('sub_kategori', 'sub_kategori.kode_sub_kategori = riwayat_pembelian.kode_sub_kategori', 'left');
     $builder->join('kategori', 'kategori.kode_kategori = riwayat_pembelian.kode_kategori', 'left');
 
-    if ($id_asset !== null) {
-        $builder->where('riwayat_pembelian.id_asset', $id_asset);
+    if ($tahun && $tahun !== 'Semua') {
+        $builder->where('YEAR(riwayat_pembelian.tanggal_pembelian)', $tahun);
+    }
+    if ($kategori && $kategori !== 'Semua') {
+        $builder->where('riwayat_pembelian.kode_kategori', $kategori);
+    }
+    if ($subkategori && $subkategori !== 'Semua') {
+        $builder->where('riwayat_pembelian.kode_sub_kategori', $subkategori);
     }
 
     $builder->orderBy('riwayat_pembelian.tanggal_pembelian', 'DESC');

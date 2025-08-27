@@ -56,7 +56,7 @@ class AuthController extends BaseController
         $users = $userModel->findAll();
          return view('admin/list_users', [
         'users' => $users,
-        'menu'  => 'users' // ✅ tambahkan ini
+        'menu'  => 'users' 
     ]);
     }
 
@@ -66,7 +66,7 @@ class AuthController extends BaseController
             return redirect()->to('/dashboard')->with('error', 'Akses hanya untuk admin');
         }
         return view('admin/create_user', [
-        'menu' => 'users' // ✅ tambahkan ini juga
+        'menu' => 'users' 
     ]);
     }
 

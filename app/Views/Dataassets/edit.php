@@ -41,18 +41,8 @@
         </div>
 
         <div class="form-group mb-3">
-            <label for="jumlah_digunakan" class="form-label">Jumlah Digunakan</label>
-            <input type="number" name="jumlah_digunakan" id="jumlah_digunakan" class="form-control" min="1" required>
-        </div>
-
-        <div class="form-group mb-3">
-            <label for="satuan_penggunaan" class="form-label">Satuan</label>
-            <input type="text" name="satuan_penggunaan" id="satuan_penggunaan" class="form-control" required>
-        </div>
-
-        <div class="form-group mb-3">
-            <label for="tanggal_mulai" class="form-label">Tanggal Mulai</label>
-            <input type="date" name="tanggal_mulai" id="tanggal_mulai" class="form-control" required>
+            <label for="tanggal_perubahan" class="form-label">Tanggal Perubahan Pemilik</label>
+            <input type="date" name="tanggal_perubahan" id="tanggal_perubahan" class="form-control" value="<?= date('Y-m-d') ?>" required>
         </div>
 
         <div class="form-group mb-3">

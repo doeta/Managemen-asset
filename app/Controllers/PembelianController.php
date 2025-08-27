@@ -123,7 +123,7 @@ public function riwayatPembelian($id_asset = null)
         $asset = $assetModel->getAssetWithKategoriWhere($id_asset); 
         $riwayat = $riwayatModel->getRiwayatWithAsset($id_asset);
     } else {
-        $riwayat = $riwayatModel->getRiwayatWithAsset(); // ✅ gunakan tetap method JOIN
+        $riwayat = $riwayatModel->getRiwayatWithAsset(); //  gunakan tetap method JOIN
     }
 
     $data = [

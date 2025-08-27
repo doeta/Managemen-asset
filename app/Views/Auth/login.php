@@ -23,7 +23,7 @@
     <div class="card-body login-card-body">
 
       <div class="text-center mb-3">
-        <img src="<?= base_url('assets/img/Logo Kebumen.png') ?>" alt="Logo Kebumen" class="img-fluid" style="max-width: 100px;">
+        <img src="<?= base_url('assets/img/kebumen.png') ?>" alt="Logo Kebumen" class="img-fluid" style="max-width: 100px;">
       </div>
       <p class="login-box-msg">Login</p>
 

@@ -16,7 +16,7 @@ class SubKategoriModel extends Model
 
   public function getSubKategoriWithKategori($kategori = null)
 {
-    $builder = $this->select('sub_kategori.*, kategori.nama_kategori, kategori.kode_kategori, COUNT(barang.id) as jumlah_barang')
+    $builder = $this->select('sub_kategori.*, kategori.nama_kategori, kategori.kode_kategori, COUNT(CASE WHEN barang.status != "habis terpakai" THEN barang.id END) as jumlah_barang')
                     ->join('kategori', 'kategori.kode_kategori = sub_kategori.kode_kategori')
                     ->join('asset', 'asset.kode_sub_kategori = sub_kategori.kode_sub_kategori', 'left')
                     ->join('barang', 'barang.id_asset = asset.id', 'left')

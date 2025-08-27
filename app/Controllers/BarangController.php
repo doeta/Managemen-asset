@@ -75,17 +75,19 @@ class BarangController extends BaseController
     public function updateBarangModal($id)
     {
         $barangModel = new BarangModel();
+        $pemakaianModel = new \App\Models\PemakaianModel();
+        $assetModel = new \App\Models\AssetModel();
+        $db = \Config\Database::connect();
     
         // Validasi input   
         $this->validate([
             'status' => 'required',
             'id_lokasi' => 'required',
             'id_pengguna' => 'required',
-
         ]);
     
         // Ambil data barang berdasarkan ID
-        $barang = $barangModel->select('barang.*, asset.kode_sub_kategori')
+        $barang = $barangModel->select('barang.*, asset.kode_sub_kategori, asset.kode_kategori')
                               ->join('asset', 'asset.id = barang.id_asset')
                               ->where('barang.id', $id)
                               ->first();
@@ -96,44 +98,38 @@ class BarangController extends BaseController
     
         // Data yang akan diupdate
         $data = [
-            'menu' => 'barangmodal',
             'status' => $this->request->getPost('status'),
             'id_lokasi' => $this->request->getPost('id_lokasi'),
             'id_pengguna' => $this->request->getPost('id_pengguna'),
         ];
     
+        // Update data barang
         $barangModel->update($id, $data);
 
-        // Inisialisasi RiwayatModel sebelum digunakan
-        $riwayatModel = new RiwayatModel();
+        //  Sinkronisasi data pemakaian yang terkait dengan barang ini
+        $this->syncPemakaianData($barang['id_asset'], $this->request->getPost('id_pengguna'), $this->request->getPost('id_lokasi'));
 
-        // Simpan data ke tabel riwayat
-        $riwayat =  [
-            'id_barang' => $id,
-            'id_asset' => $barang['id_asset'], // Ambil dari data barang
-            'jumlah_digunakan' => $this->request->getPost('jumlah_digunakan'),
-            'satuan_penggunaan' => $this->request->getPost('satuan_penggunaan'),
-            'tanggal_mulai' => $this->request->getPost('tanggal_mulai'),
-            'tanggal_selesai' => $this->request->getPost('tanggal_selesai') ?: null,
-            'keterangan' => $this->request->getPost('keterangan'),
-        ];
-
-        $validationRules = [
-            'jumlah_digunakan' => 'required|numeric',
-            'satuan_penggunaan' => 'required',
-            'tanggal_mulai' => 'required|valid_date',
-            // 'tanggal_selesai' => 'permit_empty|valid_date', // Uncomment if needed
-            // 'keterangan' => 'permit_empty', // Optional
-        ];
-
-        if (!$this->validate($validationRules)) {
-            return redirect()->back()->withInput()->with('error', 'Validasi gagal. Mohon lengkapi semua data.');
+        // Update jumlah barang di tabel asset jika status berubah
+        $statusBaru = $this->request->getPost('status');
+        $statusLama = $barang['status'];
+        
+        if ($statusBaru !== $statusLama) {
+            // Jika status berubah dari tersedia ke terpakai/rusak, kurangi jumlah
+            if ($statusLama === 'tersedia' && in_array($statusBaru, ['terpakai', 'rusak', 'maintenance'])) {
+                $assetModel->set('jumlah_barang', 'jumlah_barang - 1', false)
+                          ->where('id', $barang['id_asset'])
+                          ->update();
+            }
+            // Jika status berubah dari terpakai/rusak ke tersedia, tambah jumlah
+            elseif (in_array($statusLama, ['terpakai', 'rusak', 'maintenance']) && $statusBaru === 'tersedia') {
+                $assetModel->set('jumlah_barang', 'jumlah_barang + 1', false)
+                          ->where('id', $barang['id_asset'])
+                          ->update();
+            }
         }
-
-        $riwayatModel->insert($riwayat);
     
         // Redirect ke detailbarangmodal/{kode_sub_kategori}
-        return redirect()->to('/detailbarangmodal/' . $barang['kode_sub_kategori'])->with('success', 'Data barang berhasil diperbarui.');
+        return redirect()->to('/detailbarangmodal/' . $barang['kode_sub_kategori'])->with('success', 'Data barang berhasil diperbarui dan data pemakaian tersinkronkan.');
     }
 
     public function deleteBarangModal($id)
@@ -151,28 +147,31 @@ class BarangController extends BaseController
     public function riwayatBarangModal($id)
     {
         $barangModel = new BarangModel();
-        $riwayatModel = new RiwayatModel();
+        $pemakaianModel = new \App\Models\PemakaianModel();
 
         $barang = $barangModel
-        ->select('barang.*, asset.kode_sub_kategori')
+        ->select('barang.*, asset.kode_sub_kategori, asset.nama_barang, asset.kode_barang')
         ->join('asset', 'asset.id = barang.id_asset')
         ->where('barang.id', $id)
         ->first();
-
-        // Ambil data barang berdasarkan ID
-        // $barang = $barangModel->find($id);
 
         if (!$barang) {
             return redirect()->to('/barangmodal')->with('error', 'Data barang tidak ditemukan.');
         }
 
-        // Ambil data riwayat dari RiwayatModel
-        $riwayat = $riwayatModel->getRiwayatWithBarang($id);
+        // Ambil data riwayat dari tabel pemakaian untuk konsistensi
+        $riwayat = $pemakaianModel
+            ->select('pemakaian.*, pengguna.nama_pengguna, lokasi.nama_lokasi')
+            ->join('pengguna', 'pengguna.id = pemakaian.id_pengguna', 'left')
+            ->join('lokasi', 'lokasi.id = pemakaian.id_lokasi', 'left')
+            ->where('pemakaian.id_asset', $barang['id_asset'])
+            ->orderBy('pemakaian.tanggal_mulai', 'DESC')
+            ->findAll();
 
         $data = [
             'menu' => 'barangmodal',
+            'barang' => $barang,
             'riwayat' => $riwayat,
-            'barang'  => $barang,
         ];
 
         return view('Dataasset/Barangmodal/riwayatbarangmodal', $data);
@@ -239,65 +238,64 @@ class BarangController extends BaseController
     }
 
     public function updateBarangHabisPakai($id)
-{
-    $barangModel = new BarangModel();
-    $riwayatModel = new \App\Models\RiwayatModel(); // pastikan model ini sudah dibuat
+    {
+        $barangModel = new BarangModel();
+        $pemakaianModel = new \App\Models\PemakaianModel();
+        $assetModel = new \App\Models\AssetModel();
+        $db = \Config\Database::connect();
+    
+        // Validasi input   
+        $this->validate([
+            'status' => 'required',
+            'id_lokasi' => 'required',
+            'id_pengguna' => 'required',
+        ]);
+    
+        // Ambil data barang berdasarkan ID
+        $barang = $barangModel->select('barang.*, asset.kode_sub_kategori, asset.kode_kategori')
+                              ->join('asset', 'asset.id = barang.id_asset')
+                              ->where('barang.id', $id)
+                              ->first();
+    
+        if (!$barang) {
+            return redirect()->to('/baranghabispakai')->with('error', 'Data barang tidak ditemukan.');
+        }
+    
+        // Data yang akan diupdate
+        $data = [
+            'status' => $this->request->getPost('status'),
+            'id_lokasi' => $this->request->getPost('id_lokasi'),
+            'id_pengguna' => $this->request->getPost('id_pengguna'),
+        ];
+    
+        // Update data barang
+        $barangModel->update($id, $data);
 
-    // Validasi input
-    $this->validate([
-        'status' => 'required',
-        'id_lokasi' => 'required',
-        'id_pengguna' => 'required',
-    ]);
+        // ✅ Sinkronisasi data pemakaian yang terkait dengan barang ini
+        $this->syncPemakaianData($barang['id_asset'], $this->request->getPost('id_pengguna'), $this->request->getPost('id_lokasi'));
 
-    // Ambil data barang dan sub kategori
-    $barang = $barangModel->select('barang.*, asset.kode_sub_kategori')
-                          ->join('asset', 'asset.id = barang.id_asset')
-                          ->where('barang.id', $id)
-                          ->first();
-
-    if (!$barang) {
-        return redirect()->to('/baranghabispakai')->with('error', 'Data barang tidak ditemukan.');
+        // Update jumlah barang di tabel asset jika status berubah
+        $statusBaru = $this->request->getPost('status');
+        $statusLama = $barang['status'];
+        
+        if ($statusBaru !== $statusLama) {
+            // Jika status berubah dari tersedia ke terpakai/habis terpakai, kurangi jumlah
+            if ($statusLama === 'tersedia' && in_array($statusBaru, ['terpakai', 'habis terpakai'])) {
+                $assetModel->set('jumlah_barang', 'jumlah_barang - 1', false)
+                          ->where('id', $barang['id_asset'])
+                          ->update();
+            }
+            // Jika status berubah dari terpakai/habis terpakai ke tersedia, tambah jumlah
+            elseif (in_array($statusLama, ['terpakai', 'habis terpakai']) && $statusBaru === 'tersedia') {
+                $assetModel->set('jumlah_barang', 'jumlah_barang + 1', false)
+                          ->where('id', $barang['id_asset'])
+                          ->update();
+            }
+        }
+    
+        // Redirect ke detailbaranghabispakai/{kode_sub_kategori}
+        return redirect()->to('/detailbaranghabispakai/' . $barang['kode_sub_kategori'])->with('success', 'Data barang berhasil diperbarui dan data pemakaian tersinkronkan.');
     }
-
-    // Update data barang
-    $data = [
-        'menu' => 'baranghabispakai',
-        'status' => $this->request->getPost('status'),
-        'id_lokasi' => $this->request->getPost('id_lokasi'),
-        'id_pengguna' => $this->request->getPost('id_pengguna'),
-    ];
-
-    $barangModel->update($id, $data);
-
-// Simpan data ke tabel riwayat
-$riwayat = [
-    'id_barang' => $id,
-    'id_asset' => $barang['id_asset'], // Ambil dari data barang
-    'jumlah_digunakan' => $this->request->getPost('jumlah_digunakan'),
-    'satuan_penggunaan' => $this->request->getPost('satuan_penggunaan'),
-    'tanggal_mulai' => $this->request->getPost('tanggal_mulai'),
-    'tanggal_selesai' => $this->request->getPost('tanggal_selesai') ?: null,
-    'keterangan' => $this->request->getPost('keterangan'),
-];
-
-$validationRules = [
-    'jumlah_digunakan' => 'required|numeric',
-    'satuan_penggunaan' => 'required',
-    'tanggal_mulai' => 'required|valid_date',
-    // 'tanggal_selesai' => 'permit_empty|valid_date', // Uncomment if needed
-    // 'keterangan' => 'permit_empty', // Optional
-];
-
-if (!$this->validate($validationRules)) {
-    return redirect()->back()->withInput()->with('error', 'Validasi gagal. Mohon lengkapi semua data.');
-}
-
-    $riwayatModel->insert($riwayat);
-
-    // Redirect kembali ke detail
-    return redirect()->to('/detailbaranghabispakai/' . $barang['kode_sub_kategori'])->with('success', 'Data berhasil diperbarui dan riwayat disimpan.');
-}
 
 
     public function deleteBarangHabisPakai($id)
@@ -314,36 +312,59 @@ if (!$this->validate($validationRules)) {
 
     public function riwayatBarangHabisPakai($id)
     {
-    $barangModel = new BarangModel();
-    $riwayatModel = new RiwayatModel();
+        $barangModel = new BarangModel();
+        $pemakaianModel = new \App\Models\PemakaianModel();
 
-
-
-    // Ambil data barang berdasarkan ID
-    $barang = $barangModel
-        ->select('barang.*, asset.kode_sub_kategori')
+        $barang = $barangModel
+        ->select('barang.*, asset.kode_sub_kategori, asset.nama_barang, asset.kode_barang')
         ->join('asset', 'asset.id = barang.id_asset')
         ->where('barang.id', $id)
         ->first();
 
-    if (!$barang) {
-        return redirect()->to('/baranghabispakai')->with('error', 'Data barang tidak ditemukan.');
-    }
+        if (!$barang) {
+            return redirect()->to('/baranghabispakai')->with('error', 'Data barang tidak ditemukan.');
+        }
 
-    $riwayat = $riwayatModel->getRiwayatWithBarang($id);
-    
+        // Ambil data riwayat dari tabel pemakaian untuk konsistensi
+        $riwayat = $pemakaianModel
+            ->select('pemakaian.*, pengguna.nama_pengguna, lokasi.nama_lokasi')
+            ->join('pengguna', 'pengguna.id = pemakaian.id_pengguna', 'left')
+            ->join('lokasi', 'lokasi.id = pemakaian.id_lokasi', 'left')
+            ->where('pemakaian.id_asset', $barang['id_asset'])
+            ->orderBy('pemakaian.tanggal_mulai', 'DESC')
+            ->findAll();
 
-    $data = [
-        'menu' => 'baranghabispakai',
-        'riwayat' => $riwayat,
-        'barang'  => $barang, // Sekarang sudah ada kode_sub_kategori
-    ];
+        $data = [
+            'menu' => 'baranghabispakai',
+            'barang' => $barang,
+            'riwayat' => $riwayat,
+        ];
 
-    return view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', $data);
+        return view('Dataasset/Baranghabispakai/riwayatbaranghabispakai', $data);
     }
 
 
 
     // pembelian 
    
+    // ✅ Method untuk sinkronisasi data pemakaian (hanya update, tidak tambah data baru)
+    private function syncPemakaianData($id_asset, $id_pengguna, $id_lokasi)
+    {
+        $db = \Config\Database::connect();
+
+        // Update semua record pemakaian yang terkait dengan asset ini
+        // yang masih aktif (tanggal_selesai null atau tanggal_selesai > hari ini)
+        $updated = $db->table('pemakaian')
+            ->where('id_asset', $id_asset)
+            ->where('(tanggal_selesai IS NULL OR tanggal_selesai >= CURDATE())', null, false)
+            ->update([
+                'id_pengguna' => $id_pengguna,
+                'id_lokasi' => $id_lokasi
+            ]);
+
+        // Log untuk debugging (opsional)
+        if ($updated > 0) {
+            log_message('info', "Sinkronisasi pemakaian: {$updated} record diupdate untuk asset ID {$id_asset}");
+        }
+    }
 }

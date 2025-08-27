@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Data Asset</title>
 
+  
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
@@ -31,6 +32,23 @@
   <!-- DataTables & Export Button -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css">
+
+  <!-- Simple fix for horizontal scroll -->
+  <style>
+    body {
+      overflow-x: hidden;
+    }
+    
+    .row {
+      margin-right: 0;
+      margin-left: 0;
+    }
+    
+    .container-fluid {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  </style>
 
   <!-- jQuery -->
   <script src="<?= base_url('assets/plugins/jquery/jquery.min.js') ?>"></script>

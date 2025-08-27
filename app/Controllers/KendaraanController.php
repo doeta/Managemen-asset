@@ -44,6 +44,9 @@ class KendaraanController extends BaseController
         $lokasiModel = model('LokasiModel'); // Pastikan model ini sudah ada
         
         $riwayatModel = model('RiwayatKendaraan'); // Pastikan model ini sudah ada
+        ////pajak
+        $pembayaran = $this->request->getPost('pembayaran_pajak');
+        $masa_berlaku = date('Y-m-d', strtotime("+1 year", strtotime($pembayaran)));
 
         $data = [
             'menu' => 'kendaraan',
@@ -62,8 +65,9 @@ class KendaraanController extends BaseController
             'no_mesin' => $this->request->getPost('no_mesin'),
             'no_bpkb' => $this->request->getPost('no_bpkb'),
             'no_stnk' => $this->request->getPost('no_stnk'),
-            'pembayaran_pajak' => $this->request->getPost('pembayaran_pajak'),
-            'masa_berlaku' => $this->request->getPost('masa_berlaku')
+            'harga_pajak' => $this->request->getPost('harga_pajak'),
+            'pembayaran_pajak' => $pembayaran,
+            'masa_berlaku' => $masa_berlaku
         ];
 
         if ($model->insert($data)) {
@@ -106,6 +110,9 @@ class KendaraanController extends BaseController
     public function update($id)
     {
         $model = model('KendaraanModel');
+        ////pajak
+        $pembayaran = $this->request->getPost('pembayaran_pajak');
+        $masa_berlaku = date('Y-m-d', strtotime("+1 year", strtotime($pembayaran)));
         $data = [
             'menu' => 'kendaraan',
             'id_pengguna' => $this->request->getPost('id_pengguna'),
@@ -123,10 +130,9 @@ class KendaraanController extends BaseController
             'no_mesin' => $this->request->getPost('no_mesin'),
             'no_bpkb' => $this->request->getPost('no_bpkb'),
             'no_stnk' => $this->request->getPost('no_stnk'),
-            'pembayaran_pajak' => $this->request->getPost('pembayaran_pajak'),
-            'masa_berlaku' => $this->request->getPost('masa_berlaku')
-           
-
+            'harga_pajak' => $this->request->getPost('harga_pajak'),
+            'pembayaran_pajak' => $pembayaran,
+            'masa_berlaku' => $masa_berlaku
         ];
 
         if ($model->update($id, $data)) {

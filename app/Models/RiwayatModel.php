@@ -12,7 +12,7 @@ class RiwayatModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_asset', 'id_pengguna','id_barang', 'tanggal_mulai', 'tanggal_selesai', 'keterangan', 'jumlah_digunakan', 'satuan_penggunaan'];
+    protected $allowedFields    = ['id_asset', 'id_pengguna', 'id_barang', 'tanggal_mulai', 'tanggal_selesai', 'keterangan', 'jumlah_digunakan', 'satuan_penggunaan'];
 
     public function getRiwayatWithAsset($id_asset)
     {
@@ -21,9 +21,10 @@ class RiwayatModel extends Model
                     ->where('riwayat.id_asset', $id_asset)
                     ->findAll();
     }
+    
     public function getRiwayatWithPengguna($id_pengguna)
     {
-        return $this->select('riwayat.*, pengguna.nama_lengkap')
+        return $this->select('riwayat.*, pengguna.nama_pengguna')
                     ->join('pengguna', 'pengguna.id = riwayat.id_pengguna')
                     ->where('riwayat.id_pengguna', $id_pengguna)
                     ->findAll();
@@ -31,10 +32,16 @@ class RiwayatModel extends Model
 
     public function getRiwayatWithBarang($id_barang)
     {
-        return $this->select('riwayat.*, barang.nama_barang')
-                    ->join('barang', 'barang.id = riwayat.id_barang')
+        return $this->select('riwayat.*, pengguna.nama_pengguna, barang.nama_barang')
+                    ->join('barang', 'barang.id = riwayat.id_barang', 'left')
+                    ->join('pengguna', 'pengguna.id = riwayat.id_pengguna', 'left')
                     ->where('riwayat.id_barang', $id_barang)
                     ->findAll();
     }
+
+
+
+
+
     
 }

@@ -139,10 +139,12 @@
   </div>
 
   <!-- Info -->
+  <!-- Info -->
   <div class="info-section">
     <div class="info-row"><strong>SKPD</strong> : Dinas Komunikasi dan Informatika</div>
     <div class="info-row"><strong>Tanggal Cetak</strong> : <?= date('d-m-Y') ?></div>
     <div class="info-row"><strong>Kategori</strong> : <?= esc($kategori ?? 'Semua Kategori') ?></div>
+    <div class="info-row"><strong>Sub Kategori</strong> : <?= esc($sub_kategori ?? 'Semua Sub Kategori') ?></div>
   </div>
 
   <!-- Table -->

@@ -49,10 +49,5 @@
     $(document).ready(function() {
         $('#kendaraanTable').DataTable();
     });
-    $('#kendaraanTable').DataTable({
-        dom: 'Bfrtip',
-        buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
-    });
-
 </script>
 <?= $this->endSection(); ?>

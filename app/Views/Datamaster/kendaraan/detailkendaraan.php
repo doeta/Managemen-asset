@@ -61,6 +61,9 @@
             <td><?= $kendaraan['no_bpkb'] ?></td>
         </tr>
         <tr>
+            <th>Harga Pajak</th>
+            <td><?= number_format($kendaraan['harga_pajak'], 0, ',', '.') ?></td>
+        <tr>
             <th>Pembayaran Pajak</th>
             <td><?= date('d-m-Y', strtotime($kendaraan['pembayaran_pajak'])) ?></td>
         </tr>

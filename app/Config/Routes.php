@@ -60,7 +60,7 @@ $routes->group('', ['filter' => 'auth'], function($routes) {
 
     $routes->get('/dataassets', 'DataAssetsController::index');
     $routes->get('/dataassets/detailSubKategori/(:segment)', 'DataAssetsController::detailSubKategori/$1');
-    $routes->get('/dataassets/detail/(:num)', 'DataAssetsController::detail/$1');
+    $routes->get('/dataassets/detail/(:segment)', 'DataAssetsController::detail/$1');
     $routes->get('/dataassets/edit/(:num)', 'DataAssetsController::edit/$1');
     $routes->post('/dataassets/update/(:num)', 'DataAssetsController::update/$1');
     $routes->delete('/dataassets/delete/(:num)', 'DataAssetsController::delete/$1');
@@ -197,7 +197,9 @@ $routes->group('', ['filter' => 'auth'], function($routes) {
         $routes->get('kendaraan/pdf/(:segment)', 'LaporanController::cetakKendaraanPdf/$1');
         $routes->get('kendaraan/excel/(:segment)', 'LaporanController::exportKendaraanExcel/$1');
         // Laporan Pembelian
+        $routes->get('pembelian/pdf', 'LaporanController::cetakPembelianPdf');
         $routes->get('pembelian/pdf/(:segment)', 'LaporanController::cetakPembelianPdf/$1');
+        $routes->get('pembelian/excel', 'LaporanController::exportPembelianExcel');
         $routes->get('pembelian/excel/(:segment)', 'LaporanController::exportPembelianExcel/$1');
         // Laporan Pemakaian
         $routes->get('pemakaian', 'LaporanController::pemakaian');

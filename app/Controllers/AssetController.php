@@ -29,7 +29,13 @@ class AssetController extends BaseController
     {
         $data['menu'] = 'asset';
         $data['asset'] = $this->modelAsset->getAssetWithKategoriWhere($id);
-        return view('Datamaster/asset/detailasset', $data);
+        $riwayatModel = new RiwayatModel();
+        $data['riwayat_pengguna'] = $riwayatModel->select('riwayat.*, pengguna.nama_pengguna')
+            ->join('pengguna', 'pengguna.id = riwayat.id_pengguna', 'left')
+            ->where('riwayat.id_asset', $id)
+            ->orderBy('riwayat.tanggal_mulai', 'DESC')
+            ->findAll();
+        return view('Dataassets/detailassets', $data);
     }
 
     public function create()

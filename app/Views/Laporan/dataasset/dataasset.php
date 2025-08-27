@@ -1,6 +1,12 @@
 <?= $this->extend('layouts/main'); ?>
 <?= $this->section('content'); ?>
-
+<head>
+  <meta charset="UTF-8">
+  <title>Laporan Pemakaian Aset</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+</head>
 <div class="my-3 p-3 bg-body rounded shadow-sm">
   <h3 class="pb-2 mb-3">Laporan Data Asset</h3>
 
@@ -73,15 +79,16 @@
   </div>
 
   <!-- Action Buttons -->
+  <div class="row mb-3">
     <div class="col-md-6">
-      <div class="d-flex flex-wrap gap-3"> <!-- tambahkan flex-wrap juga kalau ingin responsif -->
-        <button type="button" id="exportPDF" class="btn btn-danger">
-          <i class="fas fa-file-pdf"></i> Export PDF
+      <div class="d-flex flex-wrap align-items-center" style="gap: 10px;"> 
+        <button type="button" id="exportPDF" class="btn btn-danger btn-sm">
+          <i class="fas fa-file-pdf"></i> PDF
         </button>
-        <button type="button" id="exportExcel" class="btn btn-success">
-          <i class="fas fa-file-excel"></i> Export Excel
+        <button type="button" id="exportExcel" class="btn btn-success btn-sm">
+          <i class="fas fa-file-excel"></i> Excel
         </button>
-        <button type="button" id="resetFilters" class="btn btn-secondary">
+        <button type="button" id="resetFilters" class="btn btn-secondary btn-sm">
           <i class="fas fa-refresh"></i> Reset Filter
         </button>
       </div>

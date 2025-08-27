@@ -28,7 +28,7 @@ class PemakaianModel extends Model
     ];
 
     // ✅ Ambil semua pemakaian dengan data relasi asset, lokasi, pengguna
-public function getPemakaianWithAsset($tahun = null, $kategori = null)
+public function getPemakaianWithAsset($tahun = null, $kategori = null, $subKategori = null)
 {
     $builder = $this->select('pemakaian.*, asset.nama_barang, asset.kode_barang, asset.kode_kategori, kategori.nama_kategori, asset.kode_sub_kategori, sub_kategori.nama_sub_kategori, lokasi.nama_lokasi, pengguna.nama_pengguna')
         ->join('asset', 'asset.id = pemakaian.id_asset')
@@ -42,7 +42,11 @@ public function getPemakaianWithAsset($tahun = null, $kategori = null)
     }
 
     if (!empty($kategori) && $kategori !== 'Semua') {
-        $builder->where('kategori.nama_kategori', $kategori);
+        $builder->where('asset.kode_kategori', $kategori);
+    }
+    
+    if (!empty($subKategori) && $subKategori !== 'Semua') {
+        $builder->where('asset.kode_sub_kategori', $subKategori);
     }
 
     return $builder->findAll();

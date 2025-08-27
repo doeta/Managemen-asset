@@ -12,7 +12,7 @@ class KendaraanModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id_pengguna','id_lokasi', 'nama_kendaraan', 'no_polisi','nomor_polisi_sebelumnya', 'warna', 'model_kendaraan', 'merk_kendaraan', 'tipe_kendaraan', 'harga', 'tahun_kendaraan', 'no_rangka', 'no_stnk', 'no_mesin', 'no_bpkb', 'pembayaran_pajak', 'masa_berlaku'];
+    protected $allowedFields    = ['id_pengguna','id_lokasi', 'nama_kendaraan', 'no_polisi','nomor_polisi_sebelumnya', 'warna', 'model_kendaraan', 'merk_kendaraan', 'tipe_kendaraan', 'harga', 'tahun_kendaraan', 'no_rangka', 'no_stnk', 'no_mesin', 'no_bpkb', 'pembayaran_pajak', 'masa_berlaku', 'harga_pajak'];
 
     public function getKendaraanWithPengguna()
     {

@@ -81,14 +81,17 @@
             <input type="text" class="form-control" id="no_bpkb" name="no_bpkb" required>
         </div>
         <div class="mb-3">
+            <label for="harga_pajak" class="form-label">Harga Pajak</label>
+            <input type="number" class="form-control" name="harga_pajak" id="harga_pajak" step="0.01" placeholder="Misal: 250000.00">
+        </div>
+        <div class="mb-3">
             <label for="pembayaran_pajak" class="form-label">Tanggal Pembayaran Pajak</label>
             <input type="date" class="form-control" id="pembayaran_pajak" name="pembayaran_pajak" required>
         </div>
         <div class="mb-3">
-            <label for="masa_berlaku" class="form-label">Masa Berlaku </label>
-            <input type="date" class="form-control" id="masa_berlaku" name="masa_berlaku" required>
+            <label for="masa_berlaku" class="form-label">Masa Berlaku</label>
+            <input type="date" class="form-control" name="masa_berlaku" id="masa_berlaku" readonly>
         </div>
-       
         <button type="submit" class="btn btn-primary">Simpan</button>
         <a href="/kendaraan" class="btn btn-secondary">Kembali</a>
     </form>
@@ -105,6 +108,22 @@ $(document).ready(function() {
         allowClear: true
     });
 });
+
+//pajak otomatis 1 tahun
+  document.addEventListener('DOMContentLoaded', function () {
+    const bayarInput = document.getElementById('pembayaran_pajak');
+    const masaInput = document.getElementById('masa_berlaku');
+
+    bayarInput.addEventListener('change', function () {
+      const bayarDate = new Date(this.value);
+      if (!isNaN(bayarDate.getTime())) {
+        const tahunDepan = new Date(bayarDate);
+        tahunDepan.setFullYear(tahunDepan.getFullYear() + 1);
+        masaInput.value = tahunDepan.toISOString().split('T')[0];
+      }
+    });
+  });
+
 </script>
 
 <?= $this->endSection() ?>

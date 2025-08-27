@@ -9,9 +9,6 @@
             <td><?= esc($kendaraan['nama_kendaraan'] ?? '-') ?></td>
         </tr>
         <tr>
-            <th>Pajak</th>
-            <td><?= esc($kendaraan['pembayaran_pajak'] ?? '-') ?></td>
-        <tr>
             <th>Merk</th>
             <td><?= esc($kendaraan['merk_kendaraan'] ?? '-') ?></td>
         </tr>
@@ -22,6 +19,18 @@
         <tr>
             <th>Harga</th>
             <td><?= esc($kendaraan['harga'] ?? '-') ?></td>
+        </tr>
+        <tr>
+            <th>Harga Pajak</th>
+            <td><?= esc($kendaraan['harga_pajak'] ?? '-') ?></td>
+        </tr>
+        <tr>
+            <th>Pembayaran Pajak</th>
+            <td><?= esc($kendaraan['pembayaran_pajak'] ?? '-') ?></td>
+        </tr>
+        <tr>
+            <th>Masa Berlaku</th>
+            <td><?= esc($kendaraan['masa_berlaku'] ?? '-') ?></td>
         </tr>
     </table>
 

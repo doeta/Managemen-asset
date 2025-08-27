@@ -53,18 +53,20 @@ class PemakaianController extends BaseController
     }
 
     $kategori = $post['kode_kategori'];
+    $isHabisTerpakai = $this->isHabisTerpakaiBarang($kategori);
 
-    if ($kategori !== 'barang_modal') {
+    if ($isHabisTerpakai) {
+        // Barang Habis Terpakai (seperti kertas, tinta, dll)
         if ($post['jumlah_digunakan'] > $asset['jumlah_barang']) {
             return redirect()->back()->with('error', 'Jumlah melebihi stok tersedia');
         }
 
-        // ✅ Update stok di tabel asset
+        //  Update stok di tabel asset (stok berkurang dan habis)
         $assetModel->update($post['id_asset'], [
             'jumlah_barang' => $asset['jumlah_barang'] - $post['jumlah_digunakan']
         ]);
 
-        // ✅ Update sebanyak jumlah_digunakan baris di tabel barang
+        //  Update sebanyak jumlah_digunakan baris di tabel barang menjadi 'habis terpakai'
         $jumlah = (int) $post['jumlah_digunakan'];
 
         $barangTersedia = $db->table('barang')
@@ -78,28 +80,61 @@ class PemakaianController extends BaseController
             $db->table('barang')
                 ->where('id', $b['id'])
                 ->update([
-                    'status' => $post['status'], // terpakai / habis terpakai
+                    'status' => 'habis terpakai', // Status tetap habis terpakai
                     'id_pengguna' => $post['id_pengguna'],
                     'id_lokasi' => $post['id_lokasi']
                 ]);
         }
     } else {
-        // Barang Modal - hanya ambil satu untuk diubah
-        $barangTersedia = $db->table('barang')
-            ->where('id_asset', $post['id_asset'])
-            ->where('status', 'tersedia')
-            ->limit(1)
-            ->get()
-            ->getRowArray();
+        // Barang Modal/Dapat Diganti Kepemilikan (seperti laptop, printer, dll)
+        if ($kategori === 'barang_modal') {
+            // Barang Modal - hanya ambil satu untuk diubah
+            $barangTersedia = $db->table('barang')
+                ->where('id_asset', $post['id_asset'])
+                ->where('status', 'tersedia')
+                ->limit(1)
+                ->get()
+                ->getRowArray();
 
-        if ($barangTersedia) {
-            $db->table('barang')
-                ->where('id', $barangTersedia['id'])
-                ->update([
-                    'status' => $post['status'],
-                    'id_pengguna' => $post['id_pengguna'],
-                    'id_lokasi' => $post['id_lokasi']
-                ]);
+            if ($barangTersedia) {
+                $db->table('barang')
+                    ->where('id', $barangTersedia['id'])
+                    ->update([
+                        'status' => $post['status'], // terpakai / rusak / maintenance
+                        'id_pengguna' => $post['id_pengguna'],
+                        'id_lokasi' => $post['id_lokasi']
+                    ]);
+            }
+        } else {
+            // Barang lain yang dapat diganti kepemilikan
+            if ($post['jumlah_digunakan'] > $asset['jumlah_barang']) {
+                return redirect()->back()->with('error', 'Jumlah melebihi stok tersedia');
+            }
+
+            // Update stok di tabel asset
+            $assetModel->update($post['id_asset'], [
+                'jumlah_barang' => $asset['jumlah_barang'] - $post['jumlah_digunakan']
+            ]);
+
+            // Update sebanyak jumlah_digunakan baris di tabel barang
+            $jumlah = (int) $post['jumlah_digunakan'];
+
+            $barangTersedia = $db->table('barang')
+                ->where('id_asset', $post['id_asset'])
+                ->where('status', 'tersedia')
+                ->limit($jumlah)
+                ->get()
+                ->getResultArray();
+
+            foreach ($barangTersedia as $b) {
+                $db->table('barang')
+                    ->where('id', $b['id'])
+                    ->update([
+                        'status' => $post['status'], // terpakai / rusak / maintenance
+                        'id_pengguna' => $post['id_pengguna'],
+                        'id_lokasi' => $post['id_lokasi']
+                    ]);
+            }
         }
     }
 
@@ -115,12 +150,29 @@ class PemakaianController extends BaseController
         'tanggal_mulai' => $post['tanggal_mulai'],
         'tanggal_selesai' => $post['tanggal_selesai'],
         'keterangan' => $post['keterangan'],
-        'status' => $post['status'],
+        'status' => $isHabisTerpakai ? 'habis terpakai' : $post['status'],
     ]);
 
-    return redirect()->to('/pemakaian')->with('message', 'Pemakaian berhasil disimpan dan barang diperbarui.');
+    $jenisBarang = $isHabisTerpakai ? 'Barang habis terpakai' : 'Barang modal';
+    return redirect()->to('/pemakaian')->with('message', "Pemakaian {$jenisBarang} berhasil disimpan dan barang diperbarui.");
 }
 
+// Method untuk menentukan apakah barang habis terpakai
+private function isHabisTerpakaiBarang($kodeKategori)
+{
+    // Daftar kategori barang yang habis terpakai
+    $habisTerpakaiKategori = [
+        'barang_habis_pakai',
+        'kertas',
+        'tinta',
+        'alat_tulis',
+        'konsumsi',
+        'makanan',
+        'minuman'
+    ];
+    
+    return in_array($kodeKategori, $habisTerpakaiKategori);
+}
 
 
 }
