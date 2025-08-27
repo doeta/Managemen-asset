@@ -57,6 +57,13 @@ php spark serve
 # Open browser: http://localhost:8080
 ```
 
+### 4. Default Login
+
+```
+Username: admin
+Password: admin123
+```
+
 **Alternative untuk Laragon/XAMPP**: Tempatkan di folder web server dan setup virtual host.
 
 ## 📁 Project Structure
