@@ -86,7 +86,15 @@ Password: admin123
 3. **Detail Barang** - Info lengkap dan riwayat kepemilikan
 4. **Pemakaian** - Input pemakaian akan auto-reduce stok (barang habis pakai)
 
-## 📄 License
+## 👨‍💻 Developer
+
+**Nama**: Duta Adi Pamungkas  
+**NIM**: 24060123140174  
+**Program Studi**: S1 Informatika  
+**Universitas**: Universitas Diponegoro
+
+
+## �📄 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
