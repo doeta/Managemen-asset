@@ -48,6 +48,41 @@ cp .env.example .env
 # database.default.password =
 ```
 
+#### Database Migration & Seeding
+
+```bash
+# Jalankan migration untuk membuat struktur tabel
+php spark migrate
+
+# Jalankan seeder untuk data sample (opsional - hanya untuk testing/development)
+php spark db:seed DatabaseSeeder
+
+# Atau jalankan seeder individual:
+php spark db:seed UsersSeeder     # User admin default
+php spark db:seed KategoriSeeder  # Data kategori sample (8 kategori contoh)
+php spark db:seed LokasiSeeder    # Data lokasi sample (8 lokasi contoh)
+```
+
+> **⚠️ Catatan Penting:**
+>
+> - Seeder hanya berisi **data contoh/sample** untuk keperluan development dan testing
+> - **JANGAN** jalankan seeder di environment production
+> - Data seeder dapat dihapus/dimodifikasi sesuai kebutuhan organisasi
+> - Untuk production, input data master melalui aplikasi web
+
+#### Database Rollback (Development)
+
+```bash
+# Rollback migration terakhir
+php spark migrate:rollback
+
+# Rollback ke versi tertentu
+php spark migrate:rollback -b 2025-04-09-070333
+
+# Reset semua migration
+php spark migrate:reset
+```
+
 ### 3. Run Application
 
 ```bash
@@ -79,7 +114,71 @@ Password: admin123
 └── vendor/             # Composer dependencies
 ```
 
-## 💡 Usage Guide
+## � Team Development Setup
+
+### Untuk Developer Baru:
+
+1. **Clone Repository**
+
+```bash
+git clone https://github.com/doeta/Managemen-asset.git
+cd Managemen-asset
+composer install
+```
+
+2. **Environment Setup**
+
+```bash
+# Copy dan edit file environment
+cp .env.example .env
+# Edit database credentials sesuai environment lokal Anda
+```
+
+3. **Database Setup**
+
+```bash
+# Buat database baru di MySQL/MariaDB
+CREATE DATABASE dbasset;
+
+# Jalankan migration untuk struktur tabel
+php spark migrate
+
+# Jalankan seeder untuk data sample (opsional - hanya untuk testing)
+php spark db:seed DatabaseSeeder
+```
+
+> **💡 Tips untuk Development:**
+>
+> - Seeder berisi data contoh kategori (Elektronik, Komputer, Furniture, dll) dan lokasi sample
+> - Data ini membantu development dan testing tanpa perlu input manual
+> - Hapus/ganti data seeder sesuai kebutuhan organisasi Anda
+
+4. **Test Application**
+
+```bash
+php spark serve
+# Akses: http://localhost:8080
+# Login: admin / admin123
+```
+
+### Database Schema:
+
+- **kategori** - Master kategori asset
+- **sub_kategori** - Sub kategori dari kategori utama
+- **lokasi** - Master lokasi penyimpanan
+- **asset** - Data asset utama
+- **barang** - Detail barang per asset
+- **users** - User management
+- **pemakaian** - Riwayat pemakaian barang
+- **riwayat_asset** - History perubahan asset
+
+### Important Notes:
+
+⚠️ **File `.env` TIDAK di-push ke repository** (berisi credential database)  
+⚠️ **File database tidak di-upload** - gunakan migration & seeder  
+⚠️ **Selalu jalankan migration** setelah pull update dari repository
+
+## �💡 Usage Guide
 
 1. **Dashboard** - Overview statistik dan status aset
 2. **Data Assets** - Kelola sub-kategori dan lihat stok
@@ -92,7 +191,6 @@ Password: admin123
 **NIM**: 24060123140174  
 **Program Studi**: S1 Informatika  
 **Universitas**: Universitas Diponegoro
-
 
 ## �📄 License
 
